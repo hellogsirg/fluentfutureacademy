@@ -139,7 +139,7 @@ export default function About() {
             <div className="relative rounded-2xl overflow-hidden shadow-2xl border-4 border-emerald-600/20 ring-1 ring-blue-900/10 bg-black">
               <div className="relative w-full" style={{ paddingBottom: '56.25%' }}>
                 <iframe
-                  src="https://drive.google.com/file/d/1rYfIbeK_11CHztWQ7109fdb3mtyAOANB/preview"
+                  src={`https://drive.google.com/file/d/1rYfIbeK_11CHztWQ7109fdb3mtyAOANB/preview${videoPlaying ? '?autoplay=1' : ''}`}
                   className="absolute inset-0 w-full h-full"
                   allow="autoplay; encrypted-media"
                   allowFullScreen
