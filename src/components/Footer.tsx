@@ -148,7 +148,7 @@ export default function Footer() {
                 style={{ boxShadow: '0 0 25px rgba(212, 175, 55, 0.45), 0 8px 20px -8px rgba(212, 175, 55, 0.35)' }}
               >
                 <div className="rounded-lg p-[2px] bg-amber-50/80">
-                  <div className="w-32 h-32 bg-white rounded-md p-3 flex items-center justify-center">
+                  <div className="w-32 h-32 rounded-md p-3 flex items-center justify-center" style={{ backgroundColor: '#0f3460' }}>
                     <img
                       src={ataLogo}
                       alt="ATA - American Translators Association Logo"

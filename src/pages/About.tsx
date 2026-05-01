@@ -375,7 +375,7 @@ export default function About() {
             >
               <div className="rounded-xl p-[2px] bg-amber-50/80">
                 <div className="rounded-xl p-8 bg-gradient-to-br from-blue-900 to-blue-800 flex flex-col items-center justify-center">
-                  <div className="w-full h-32 mb-6 flex items-center justify-center bg-white rounded-xl p-4">
+                  <div className="w-full h-32 mb-6 flex items-center justify-center rounded-xl p-4" style={{ backgroundColor: '#0f3460' }}>
                     <img
                       src={ataLogo}
                       alt="ATA - American Translators Association Logo"
