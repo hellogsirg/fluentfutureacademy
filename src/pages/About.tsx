@@ -1,10 +1,11 @@
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Globe, Award, Users, TrendingUp, HeartPulse, GraduationCap, Building2, Briefcase, Target, MessageCircle, Clock, School, CheckCircle2, Stethoscope, Handshake, Zap } from 'lucide-react';
 import { updatePageTitle, updateMetaDescription } from '../utils/seo';
 import ataLogo from '../assets/ata-logo.webp';
 
 export default function About() {
+  const [videoPlaying, setVideoPlaying] = useState(false);
   useEffect(() => {
     updatePageTitle('About Us');
     updateMetaDescription('Professional training led by Hanane Benalia. Empowering individuals with language and communication skills for healthcare, education, business, and international environments.');
