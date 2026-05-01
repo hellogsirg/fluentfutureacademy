@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { Phone, Mail, MapPin, Linkedin, Facebook, Instagram, Twitter } from 'lucide-react';
 import { TextHoverEffect, FooterBackgroundGradient } from './ui/hover-footer';
+import ataLogo from '../assets/ata-logo.webp';
 
 export default function Footer() {
   const { t } = useTranslation();
@@ -140,26 +141,24 @@ export default function Footer() {
 
         <div className="py-8 mb-8">
           <h4 className="text-white text-lg font-bold mb-6 text-center">Professional Affiliations</h4>
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-8">
+          <div className="flex items-center justify-center">
             <div className="flex flex-col items-center">
-              <div className="w-24 h-24 bg-white rounded-lg p-2 mb-3 flex items-center justify-center">
-                <img
-                  src="https://www.atanet.org/wp-content/uploads/2019/11/ata_logo@1x.png"
-                  alt="ATA Logo"
-                  className="max-w-full max-h-full object-contain"
-                />
+              <div
+                className="rounded-xl p-[3px] bg-gradient-to-br from-amber-300 via-yellow-500 to-amber-600 mb-3"
+                style={{ boxShadow: '0 0 25px rgba(212, 175, 55, 0.45), 0 8px 20px -8px rgba(212, 175, 55, 0.35)' }}
+              >
+                <div className="rounded-lg p-[2px] bg-amber-50/80">
+                  <div className="w-32 h-32 bg-white rounded-md p-3 flex items-center justify-center">
+                    <img
+                      src={ataLogo}
+                      alt="ATA - American Translators Association Logo"
+                      className="max-w-full max-h-full object-contain"
+                    />
+                  </div>
+                </div>
               </div>
-              <p className="text-gray-400 text-xs text-center">ATA Member</p>
-            </div>
-            <div className="flex flex-col items-center">
-              <div className="w-24 h-24 bg-white rounded-lg p-2 mb-3 flex items-center justify-center">
-                <img
-                  src="https://cdn.wildapricot.com/171859/Resources/Pictures/neta-logo-859x672.png?version=1405702567000"
-                  alt="NETA Logo"
-                  className="max-w-full max-h-full object-contain"
-                />
-              </div>
-              <p className="text-gray-400 text-xs text-center">NETA Member</p>
+              <p className="text-gray-300 text-sm text-center font-semibold">ATA Member</p>
+              <p className="text-gray-500 text-xs text-center">American Translators Association</p>
             </div>
           </div>
         </div>
