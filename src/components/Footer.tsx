@@ -52,8 +52,8 @@ export default function Footer() {
   ];
 
   const socialLinks = [
-    { icon: <Facebook size={20} />, label: 'Facebook', href: 'https://facebook.com' },
-    { icon: <Instagram size={20} />, label: 'Instagram', href: 'https://instagram.com' },
+    { icon: <Facebook size={20} />, label: 'Facebook', href: 'https://www.facebook.com/profile.php?id=61588744832806&mibextid=wwXIfr&rdid=UopEZ84N3hxG2LeB&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1HhChiCZWH%2F%3Fmibextid%3DwwXIfr' },
+    { icon: <Instagram size={20} />, label: 'Instagram', href: 'https://www.instagram.com/fluent_future_aca?igsh=MTZsc2tmdzN2OGRrcQ%3D%3D&utm_source=qr' },
     { icon: <Twitter size={20} />, label: 'Twitter', href: 'https://twitter.com' },
     { icon: <Linkedin size={20} />, label: 'LinkedIn', href: 'https://linkedin.com' },
   ];
