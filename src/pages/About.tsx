@@ -123,6 +123,33 @@ export default function About() {
         </div>
       </section>
 
+      <section className="py-28 bg-gradient-to-br from-gray-50 to-blue-50">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <div className="inline-block px-4 py-2 bg-emerald-600/20 backdrop-blur-sm rounded-full border border-emerald-400/30 mb-4">
+              <span className="text-emerald-700 text-sm font-bold">FOUNDER'S VISION</span>
+            </div>
+            <h2 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-4">A Message From Our Founder</h2>
+            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+              Hear directly from Hanane Benalia about the mission and vision behind Fluent Future Academy
+            </p>
+          </div>
+          <div className="mx-auto" style={{ maxWidth: '800px' }}>
+            <div className="relative rounded-2xl overflow-hidden shadow-2xl border-4 border-emerald-600/20 ring-1 ring-blue-900/10 bg-black">
+              <div className="relative w-full" style={{ paddingBottom: '56.25%' }}>
+                <iframe
+                  src="https://drive.google.com/file/d/1rYfIbeK_11CHztWQ7109fdb3mtyAOANB/preview"
+                  className="absolute inset-0 w-full h-full"
+                  allow="autoplay; encrypted-media"
+                  allowFullScreen
+                  title="A Message From Our Founder - Hanane Benalia"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section className="py-28 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-center mb-8">
