@@ -278,12 +278,22 @@ export default function About() {
         <div className="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col items-center justify-center">
             <div className="mb-8 flex justify-center">
-              <img
-                src="/education_image_.jpeg"
-                alt="Education 2.0 Conference Excellence In Education Award"
-                className="max-w-full h-auto rounded-lg shadow-xl"
-                style={{ maxWidth: '500px', width: '100%' }}
-              />
+              <div
+                className="p-2 rounded-xl bg-gradient-to-br from-amber-300 via-yellow-500 to-amber-600 ring-1 ring-amber-200/70"
+                style={{
+                  maxWidth: '500px',
+                  width: '100%',
+                  boxShadow: '0 0 35px rgba(212, 175, 55, 0.5), 0 12px 30px -5px rgba(180, 130, 20, 0.4)',
+                }}
+              >
+                <div className="rounded-lg p-[2px] bg-amber-50/80">
+                  <img
+                    src="/education_image_.jpeg"
+                    alt="Education 2.0 Conference Excellence In Education Award"
+                    className="w-full h-auto rounded-md block"
+                  />
+                </div>
+              </div>
             </div>
 
             <div className="w-20 h-1 bg-gradient-to-r from-amber-300 to-amber-500 rounded-full mb-6"></div>
