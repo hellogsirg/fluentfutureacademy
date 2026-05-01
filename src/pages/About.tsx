@@ -2,6 +2,7 @@ import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { Globe, Award, Users, TrendingUp, HeartPulse, GraduationCap, Building2, Briefcase, Target, MessageCircle, Clock, School, CheckCircle2, Stethoscope, Handshake, Zap } from 'lucide-react';
 import { updatePageTitle, updateMetaDescription } from '../utils/seo';
+import ataLogo from '../assets/ata-logo.webp';
 
 export default function About() {
   useEffect(() => {
@@ -367,29 +368,24 @@ export default function About() {
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">Committed to professional standards and excellence</p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-2xl mx-auto">
-            <div className="rounded-2xl p-8 border-2 border-yellow-500 bg-gradient-to-br from-blue-900 to-blue-800 flex flex-col items-center justify-center hover:shadow-xl transition-shadow duration-300">
-              <div className="w-32 h-32 mb-6 flex items-center justify-center bg-white rounded-xl p-4">
-                <img
-                  src="https://www.atanet.org/wp-content/uploads/2019/11/ata_logo@1x.png"
-                  alt="ATA Logo"
-                  className="max-w-full max-h-full object-contain"
-                />
+          <div className="flex justify-center max-w-md mx-auto">
+            <div
+              className="rounded-2xl p-1 bg-gradient-to-br from-amber-300 via-yellow-500 to-amber-600 ring-1 ring-amber-200/60 w-full"
+              style={{ boxShadow: '0 0 35px rgba(212, 175, 55, 0.5), 0 10px 30px -10px rgba(212, 175, 55, 0.4)' }}
+            >
+              <div className="rounded-xl p-[2px] bg-amber-50/80">
+                <div className="rounded-xl p-8 bg-gradient-to-br from-blue-900 to-blue-800 flex flex-col items-center justify-center">
+                  <div className="w-full h-32 mb-6 flex items-center justify-center bg-white rounded-xl p-4">
+                    <img
+                      src={ataLogo}
+                      alt="ATA - American Translators Association Logo"
+                      className="max-w-full max-h-full object-contain"
+                    />
+                  </div>
+                  <h3 className="text-white text-xl font-bold text-center mb-2">ATA Member</h3>
+                  <p className="text-blue-200 text-center text-sm">American Translators Association</p>
+                </div>
               </div>
-              <h3 className="text-white text-xl font-bold text-center mb-2">ATA Member</h3>
-              <p className="text-blue-200 text-center text-sm">American Translators Association</p>
-            </div>
-
-            <div className="rounded-2xl p-8 border-2 border-white bg-gradient-to-br from-blue-900 to-blue-800 flex flex-col items-center justify-center hover:shadow-xl transition-shadow duration-300">
-              <div className="w-32 h-32 mb-6 flex items-center justify-center bg-white rounded-xl p-4">
-                <img
-                  src="https://cdn.wildapricot.com/171859/Resources/Pictures/neta-logo-859x672.png?version=1405702567000"
-                  alt="NETA Logo"
-                  className="max-w-full max-h-full object-contain"
-                />
-              </div>
-              <h3 className="text-white text-xl font-bold text-center mb-2">NETA Member</h3>
-              <p className="text-blue-200 text-center text-sm">New England Translators Association</p>
             </div>
           </div>
         </div>
