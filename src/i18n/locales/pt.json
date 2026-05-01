@@ -1,0 +1,95 @@
+{
+  "nav": {
+    "home": "Início",
+    "programs": "Programas",
+    "services": "Serviços",
+    "articles": "Artigos",
+    "about": "Sobre",
+    "enrollNow": "Inscreva-se Agora",
+    "interpreterTraining": "Formação de Intérpretes",
+    "eslSupport": "Suporte ESL",
+    "professionalCommunication": "Comunicação Profissional",
+    "foreignLanguages": "Línguas Estrangeiras",
+    "viewAllPrograms": "Ver Todos os Programas",
+    "corporateTraining": "Treinamento Corporativo",
+    "workshopsEvents": "Workshops e Eventos"
+  },
+  "hero": {
+    "badge": "Educação Profissional em Idiomas",
+    "title": "Aprenda idiomas com confiança para o trabalho, viagens e oportunidades globais",
+    "subtitle": "Formação profissional para intérpretes, profissionais bilíngues e líderes em comunicação global.",
+    "enrollNow": "Inscreva-se Agora",
+    "bookConsultation": "Agendar uma Consulta",
+    "explorePrograms": "Explorar Programas",
+    "careerGrowth": "Crescimento Profissional",
+    "careerGrowthDesc": "Avance profissionalmente com habilidades linguísticas certificadas",
+    "travelConfidence": "Confiança para Viajar",
+    "travelConfidenceDesc": "Navegue pelo mundo com domínio da comunicação",
+    "crossCultural": "Conexão Intercultural",
+    "crossCulturalDesc": "Construa relacionamentos significativos entre culturas"
+  },
+  "programs": {
+    "title": "Programas em Destaque",
+    "subtitle": "Treinamento abrangente projetado para o seu sucesso profissional",
+    "interpreterTitle": "Formação em Comunicação Médica e Saúde",
+    "interpreterDesc": "Certificações de 40-60 horas em interpretação médica e comunitária. Inscreva-se em nosso <strong>Treinamento de Intérprete Comunitário de 60 horas</strong> ou <strong>Fundamentos de Interpretação Médica de 40 horas</strong>.",
+    "eslTitle": "ESL para Profissionais",
+    "eslDesc": "Desenvolva confiança no ambiente de trabalho com inglês para negócios. Perfeito para profissionais que avançam em suas carreiras.",
+    "communicationTitle": "Comunicação Profissional Global",
+    "communicationDesc": "Domine a comunicação em reuniões globais e oratória para o sucesso internacional.",
+    "languagesTitle": "Línguas Estrangeiras",
+    "languagesDesc": "Programas de idiomas abrangentes para viagens, negócios e imersão cultural.",
+    "learnMore": "Saiba Mais",
+    "viewAll": "Ver Todos os Programas"
+  },
+  "corporate": {
+    "badge": "Soluções de Treinamento B2B",
+    "title": "Treine Sua Equipe para o Sucesso Global",
+    "subtitle": "Elevando sua organização com programas de treinamento linguístico personalizados. Nossas soluções corporativas constroem excelência em comunicação em toda a sua equipe.",
+    "clients": "Clientes Corporativos",
+    "professionals": "Profissionais Treinados",
+    "satisfaction": "Taxa de Satisfação",
+    "exploreSolutions": "Explorar Soluções Corporativas",
+    "requestProposal": "Solicitar Proposta"
+  },
+  "whyChoose": {
+    "title": "Por que Nos Escolher",
+    "subtitle": "Excelência em educação de idiomas fundada por Hanane Benalia, MBA",
+    "expertTitle": "Instrução Especializada",
+    "expertDesc": "Aprenda com profissionais certificados com experiência real em interpretação e comunicação global",
+    "flexibleTitle": "Aprendizado Flexível",
+    "flexibleDesc": "Escolha entre formatos presenciais, online ou híbridos que se adequem ao seu horário e estilo de aprendizagem",
+    "practicalTitle": "Foco Prático",
+    "practicalDesc": "Aplique habilidades imediatamente com treinamento prático, cenários reais e certificação relevante para a indústria"
+  },
+  "footer": {
+    "tagline": "Educação profissional em idiomas para o sucesso global",
+    "navigation": "Navegação",
+    "offerings": "Ofertas",
+    "contact": "Contato",
+    "stayUpdated": "Fique Atualizado",
+    "subscribeText": "Assine nossa newsletter para atualizações e dicas",
+    "emailPlaceholder": "Seu e-mail",
+    "subscribe": "Assinar",
+    "subscribeSuccess": "Sucesso! Você está inscrito.",
+    "copyright": "© 2026 Fluent Future Academy- LLC. Todos os direitos reservados."
+  },
+  "whatsapp": {
+    "chatWithUs": "Converse conosco"
+  },
+  "common": {
+    "duration": "Duração",
+    "format": "Formato",
+    "certification": "Certificação",
+    "price": "Preço",
+    "investment": "Investimento",
+    "registerNow": "Inscreva-se Agora",
+    "requestInfo": "Solicitar Informações",
+    "readMore": "Leia Mais",
+    "readArticle": "Ler Artigo",
+    "viewPrograms": "Ver Programas",
+    "contactUs": "Fale Conosco",
+    "loading": "Carregando...",
+    "notFound": "Não Encontrado"
+  }
+}
