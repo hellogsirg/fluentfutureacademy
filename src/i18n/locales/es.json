@@ -1,0 +1,95 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "programs": "Programas",
+    "services": "Servicios",
+    "articles": "Artículos",
+    "about": "Acerca de",
+    "enrollNow": "Inscríbete Ahora",
+    "interpreterTraining": "Formación de Intérpretes",
+    "eslSupport": "Apoyo ESL",
+    "professionalCommunication": "Comunicación Profesional",
+    "foreignLanguages": "Idiomas Extranjeros",
+    "viewAllPrograms": "Ver Todos los Programas",
+    "corporateTraining": "Capacitación Corporativa",
+    "workshopsEvents": "Talleres y Eventos"
+  },
+  "hero": {
+    "badge": "Educación Profesional en Idiomas",
+    "title": "Aprende idiomas con confianza para el trabajo, los viajes y las oportunidades globales",
+    "subtitle": "Formación profesional para intérpretes, profesionales bilingües y líderes en comunicación global.",
+    "enrollNow": "Inscríbete Ahora",
+    "bookConsultation": "Reservar una Consulta",
+    "explorePrograms": "Explorar Programas",
+    "careerGrowth": "Crecimiento Profesional",
+    "careerGrowthDesc": "Avanza profesionalmente con habilidades lingüísticas certificadas",
+    "travelConfidence": "Confianza para Viajar",
+    "travelConfidenceDesc": "Navega por el mundo con dominio de la comunicación",
+    "crossCultural": "Conexión Intercultural",
+    "crossCulturalDesc": "Construye relaciones significativas entre culturas"
+  },
+  "programs": {
+    "title": "Programas Destacados",
+    "subtitle": "Capacitación integral diseñada para tu éxito profesional",
+    "interpreterTitle": "Formación en Comunicación Médica y Sanitaria",
+    "interpreterDesc": "Certificaciones de 40-60 horas en interpretación médica y comunitaria. Inscríbete en nuestros programas de <strong>Capacitación de Intérprete Comunitario de 60 horas</strong> o <strong>Fundamentos de Interpretación Médica de 40 horas</strong>.",
+    "eslTitle": "ESL para Profesionales",
+    "eslDesc": "Desarrolla confianza en el lugar de trabajo con inglés de negocios. Perfecto para profesionales que avanzan en sus carreras.",
+    "communicationTitle": "Comunicación Profesional Global",
+    "communicationDesc": "Domina la comunicación en reuniones globales y oratoria pública para el éxito internacional.",
+    "languagesTitle": "Idiomas Extranjeros",
+    "languagesDesc": "Programas de idiomas integrales para viajes, negocios e inmersión cultural.",
+    "learnMore": "Más Información",
+    "viewAll": "Ver Todos los Programas"
+  },
+  "corporate": {
+    "badge": "Soluciones de Capacitación B2B",
+    "title": "Capacita a Tu Equipo para el Éxito Global",
+    "subtitle": "Elevando tu organización con programas de capacitación en idiomas personalizados. Nuestras soluciones corporativas construyen excelencia en comunicación en todo tu equipo.",
+    "clients": "Clientes Corporativos",
+    "professionals": "Profesionales Capacitados",
+    "satisfaction": "Tasa de Satisfacción",
+    "exploreSolutions": "Explorar Soluciones Corporativas",
+    "requestProposal": "Solicitar Propuesta"
+  },
+  "whyChoose": {
+    "title": "Por Qué Elegirnos",
+    "subtitle": "Excelencia en educación de idiomas fundada por Hanane Benalia, MBA",
+    "expertTitle": "Instrucción Experta",
+    "expertDesc": "Aprende de profesionales certificados con experiencia real en interpretación y comunicación global",
+    "flexibleTitle": "Aprendizaje Flexible",
+    "flexibleDesc": "Elige entre formatos presenciales, en línea o híbridos que se adapten a tu horario y estilo de aprendizaje",
+    "practicalTitle": "Enfoque Práctico",
+    "practicalDesc": "Aplica habilidades inmediatamente con capacitación práctica, escenarios reales y certificación relevante para la industria"
+  },
+  "footer": {
+    "tagline": "Educación profesional en idiomas para el éxito global",
+    "navigation": "Navegación",
+    "offerings": "Ofertas",
+    "contact": "Contacto",
+    "stayUpdated": "Mantente Actualizado",
+    "subscribeText": "Suscríbete a nuestro boletín para actualizaciones y consejos",
+    "emailPlaceholder": "Tu correo electrónico",
+    "subscribe": "Suscribirse",
+    "subscribeSuccess": "¡Éxito! Estás suscrito.",
+    "copyright": "© 2026 Fluent Future Academy- LLC. Todos los derechos reservados."
+  },
+  "whatsapp": {
+    "chatWithUs": "Chatea con nosotros"
+  },
+  "common": {
+    "duration": "Duración",
+    "format": "Formato",
+    "certification": "Certificación",
+    "price": "Precio",
+    "investment": "Inversión",
+    "registerNow": "Regístrate Ahora",
+    "requestInfo": "Solicitar Información",
+    "readMore": "Leer Más",
+    "readArticle": "Leer Artículo",
+    "viewPrograms": "Ver Programas",
+    "contactUs": "Contáctanos",
+    "loading": "Cargando...",
+    "notFound": "No Encontrado"
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "nav": {
+    "home": "首页",
+    "programs": "课程",
+    "services": "服务",
+    "articles": "文章",
+    "about": "关于",
+    "enrollNow": "立即注册",
+    "interpreterTraining": "口译培训",
+    "eslSupport": "英语支持",
+    "professionalCommunication": "专业沟通",
+    "foreignLanguages": "外语",
+    "viewAllPrograms": "查看所有课程",
+    "corporateTraining": "企业培训",
+    "workshopsEvents": "研讨会和活动"
+  },
+  "hero": {
+    "badge": "专业语言教育",
+    "title": "自信学习语言，为工作、旅行和全球机遇做好准备",
+    "subtitle": "为口译员、双语专业人士和全球沟通领袖提供专业培训。",
+    "enrollNow": "立即注册",
+    "bookConsultation": "预约咨询",
+    "explorePrograms": "探索课程",
+    "careerGrowth": "职业发展",
+    "careerGrowthDesc": "通过认证语言技能专业发展",
+    "travelConfidence": "旅行自信",
+    "travelConfidenceDesc": "以沟通能力游历世界",
+    "crossCultural": "跨文化连接",
+    "crossCulturalDesc": "跨文化建立有意义的关系"
+  },
+  "programs": {
+    "title": "特色课程",
+    "subtitle": "为您的职业成功设计的全面培训",
+    "interpreterTitle": "医疗与健康沟通培训",
+    "interpreterDesc": "医学和社区口译40-60小时认证。报名参加我们的<strong>60小时社区口译培训</strong>或<strong>40小时医学口译基础</strong>课程。",
+    "eslTitle": "专业人士英语",
+    "eslDesc": "通过商务英语建立职场信心。非常适合职业发展的专业人士。",
+    "communicationTitle": "全球专业沟通",
+    "communicationDesc": "掌握全球会议沟通和公开演讲，实现国际成功。",
+    "languagesTitle": "外语",
+    "languagesDesc": "为旅行、商务和文化沉浸提供全面的语言课程。",
+    "learnMore": "了解更多",
+    "viewAll": "查看所有课程"
+  },
+  "corporate": {
+    "badge": "B2B培训解决方案",
+    "title": "为您的团队培训全球成功",
+    "subtitle": "通过定制语言培训课程提升您的组织。我们的企业解决方案在整个团队中建立沟通卓越。",
+    "clients": "企业客户",
+    "professionals": "培训专业人士",
+    "satisfaction": "满意度",
+    "exploreSolutions": "探索企业解决方案",
+    "requestProposal": "请求提案"
+  },
+  "whyChoose": {
+    "title": "为什么选择我们",
+    "subtitle": "由MBA Hanane Benalia创立的语言教育卓越",
+    "expertTitle": "专家指导",
+    "expertDesc": "向在口译和全球沟通方面拥有实际经验的认证专业人士学习",
+    "flexibleTitle": "灵活学习",
+    "flexibleDesc": "选择适合您的时间表和学习风格的面对面、在线或混合形式",
+    "practicalTitle": "实践重点",
+    "practicalDesc": "通过实践培训、真实场景和行业相关认证立即应用技能"
+  },
+  "footer": {
+    "tagline": "专业语言教育，实现全球成功",
+    "navigation": "导航",
+    "offerings": "提供",
+    "contact": "联系",
+    "stayUpdated": "保持更新",
+    "subscribeText": "订阅我们的新闻通讯以获取更新和提示",
+    "emailPlaceholder": "您的电子邮件",
+    "subscribe": "订阅",
+    "subscribeSuccess": "成功！您已订阅。",
+    "copyright": "© 2026 Fluent Future Academy- LLC。保留所有权利。"
+  },
+  "whatsapp": {
+    "chatWithUs": "与我们聊天"
+  },
+  "common": {
+    "duration": "时长",
+    "format": "格式",
+    "certification": "认证",
+    "price": "价格",
+    "investment": "投资",
+    "registerNow": "立即注册",
+    "requestInfo": "请求信息",
+    "readMore": "阅读更多",
+    "readArticle": "阅读文章",
+    "viewPrograms": "查看课程",
+    "contactUs": "联系我们",
+    "loading": "加载中...",
+    "notFound": "未找到"
+  }
+}

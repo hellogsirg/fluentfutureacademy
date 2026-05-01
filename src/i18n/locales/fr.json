@@ -1,0 +1,95 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "programs": "Programmes",
+    "services": "Services",
+    "articles": "Articles",
+    "about": "À Propos",
+    "enrollNow": "S'inscrire Maintenant",
+    "interpreterTraining": "Formation d'Interprètes",
+    "eslSupport": "Soutien ESL",
+    "professionalCommunication": "Communication Professionnelle",
+    "foreignLanguages": "Langues Étrangères",
+    "viewAllPrograms": "Voir Tous les Programmes",
+    "corporateTraining": "Formation d'Entreprise",
+    "workshopsEvents": "Ateliers et Événements"
+  },
+  "hero": {
+    "badge": "Éducation Linguistique Professionnelle",
+    "title": "Apprenez les langues avec confiance pour le travail, les voyages et les opportunités mondiales",
+    "subtitle": "Formation professionnelle pour les interprètes, les professionnels bilingues et les leaders de la communication mondiale.",
+    "enrollNow": "S'inscrire Maintenant",
+    "bookConsultation": "Réserver une Consultation",
+    "explorePrograms": "Explorer les Programmes",
+    "careerGrowth": "Croissance de Carrière",
+    "careerGrowthDesc": "Progressez professionnellement avec des compétences linguistiques certifiées",
+    "travelConfidence": "Confiance en Voyage",
+    "travelConfidenceDesc": "Naviguez dans le monde avec une maîtrise de la communication",
+    "crossCultural": "Connexion Interculturelle",
+    "crossCulturalDesc": "Construisez des relations significatives à travers les cultures"
+  },
+  "programs": {
+    "title": "Programmes en Vedette",
+    "subtitle": "Formation complète conçue pour votre réussite professionnelle",
+    "interpreterTitle": "Formation en Communication Médicale et Santé",
+    "interpreterDesc": "Certifications de 40 à 60 heures en interprétation médicale et communautaire. Inscrivez-vous à nos programmes de <strong>Formation d'Interprète Communautaire de 60 heures</strong> ou <strong>Fondamentaux de l'Interprétation Médicale de 40 heures</strong>.",
+    "eslTitle": "ESL pour Professionnels",
+    "eslDesc": "Développez la confiance au travail avec l'anglais des affaires. Parfait pour les professionnels qui progressent dans leur carrière.",
+    "communicationTitle": "Communication Professionnelle Globale",
+    "communicationDesc": "Maîtrisez la communication lors de réunions mondiales et la prise de parole en public pour un succès international.",
+    "languagesTitle": "Langues Étrangères",
+    "languagesDesc": "Programmes de langues complets pour les voyages, les affaires et l'immersion culturelle.",
+    "learnMore": "En Savoir Plus",
+    "viewAll": "Voir Tous les Programmes"
+  },
+  "corporate": {
+    "badge": "Solutions de Formation B2B",
+    "title": "Formez Votre Équipe pour le Succès Mondial",
+    "subtitle": "Élevez votre organisation avec des programmes de formation linguistique personnalisés. Nos solutions d'entreprise construisent l'excellence en communication dans toute votre équipe.",
+    "clients": "Clients d'Entreprise",
+    "professionals": "Professionnels Formés",
+    "satisfaction": "Taux de Satisfaction",
+    "exploreSolutions": "Explorer les Solutions d'Entreprise",
+    "requestProposal": "Demander une Proposition"
+  },
+  "whyChoose": {
+    "title": "Pourquoi Nous Choisir",
+    "subtitle": "Excellence en éducation linguistique fondée par Hanane Benalia, MBA",
+    "expertTitle": "Instruction Experte",
+    "expertDesc": "Apprenez auprès de professionnels certifiés ayant une expérience réelle en interprétation et communication mondiale",
+    "flexibleTitle": "Apprentissage Flexible",
+    "flexibleDesc": "Choisissez parmi des formats en personne, en ligne ou hybrides qui correspondent à votre emploi du temps et style d'apprentissage",
+    "practicalTitle": "Approche Pratique",
+    "practicalDesc": "Appliquez immédiatement les compétences avec une formation pratique, des scénarios réels et une certification pertinente pour l'industrie"
+  },
+  "footer": {
+    "tagline": "Éducation linguistique professionnelle pour le succès mondial",
+    "navigation": "Navigation",
+    "offerings": "Offres",
+    "contact": "Contact",
+    "stayUpdated": "Restez à Jour",
+    "subscribeText": "Abonnez-vous à notre newsletter pour des mises à jour et des conseils",
+    "emailPlaceholder": "Votre email",
+    "subscribe": "S'abonner",
+    "subscribeSuccess": "Succès ! Vous êtes abonné.",
+    "copyright": "© 2026 Fluent Future Academy- LLC. Tous droits réservés."
+  },
+  "whatsapp": {
+    "chatWithUs": "Discutez avec nous"
+  },
+  "common": {
+    "duration": "Durée",
+    "format": "Format",
+    "certification": "Certification",
+    "price": "Prix",
+    "investment": "Investissement",
+    "registerNow": "S'inscrire Maintenant",
+    "requestInfo": "Demander des Informations",
+    "readMore": "Lire la Suite",
+    "readArticle": "Lire l'Article",
+    "viewPrograms": "Voir les Programmes",
+    "contactUs": "Nous Contacter",
+    "loading": "Chargement...",
+    "notFound": "Non Trouvé"
+  }
+}
