@@ -309,7 +309,9 @@ export default function Home() {
       <section className="py-16 bg-white">
         <div className="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-8">Award & Recognition</h2>
+            <div className="inline-block px-4 py-2 bg-emerald-600/20 backdrop-blur-sm rounded-full border border-emerald-400/30 mb-4">
+              <span className="text-emerald-700 text-sm font-bold">AWARD & RECOGNITION</span>
+            </div>
           </div>
 
           <div className="flex flex-col items-center justify-center">
