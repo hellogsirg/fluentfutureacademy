@@ -5,6 +5,7 @@
     "services": "Services",
     "articles": "Articles",
     "about": "About",
+    "careers": "Careers",
     "enrollNow": "Enroll Now",
     "interpreterTraining": "Medical and Healthcare Communication Training",
     "eslSupport": "Professional English and Workplace Integration",
@@ -12,7 +13,9 @@
     "foreignLanguages": "Foreign Languages",
     "viewAllPrograms": "View All Programs",
     "corporateTraining": "Corporate Training",
-    "workshopsEvents": "Workshops & Events"
+    "workshopsEvents": "Workshops & Events",
+    "toggleMenu": "Toggle menu",
+    "changeLanguage": "Change language"
   },
   "hero": {
     "badge": "Professional Language Education",
@@ -48,17 +51,134 @@
     "programsPlural": "programs",
     "noPrograms": "No programs found in this category.",
     "getStartedTitle": "Ready to Get Started?",
-    "getStartedSubtitle": "Take the first step towards your language learning goals. Our team is here to help you choose the right program."
+    "getStartedSubtitle": "Take the first step towards your language learning goals. Our team is here to help you choose the right program.",
+    "breadcrumbHome": "Home",
+    "breadcrumbPrograms": "Programs",
+    "notFoundTitle": "Program Not Found",
+    "notFoundDesc": "The program you're looking for doesn't exist.",
+    "browseAll": "Browse All Programs",
+    "overview": "Program Overview",
+    "whatYouWillLearn": "What You Will Learn",
+    "whoShouldEnroll": "Who Should Enroll",
+    "idealFor": "This program is ideal for:",
+    "curriculum": "Curriculum",
+    "meetInstructor": "Meet Your Instructor",
+    "studentsSay": "What Our Students Say",
+    "atAGlance": "At a Glance",
+    "duration": "Duration",
+    "format": "Format",
+    "classCapacity": "Class Capacity",
+    "certification": "Certification",
+    "investment": "Investment",
+    "registerNow": "Register Now",
+    "requestInfo": "Request Information",
+    "questionsAbout": "Questions about this program?",
+    "call": "Call:",
+    "email": "Email:",
+    "categoryAll": "All Programs",
+    "categoryInterpreting": "Medical and Healthcare Communication Training",
+    "categoryEsl": "Professional English and Workplace Integration",
+    "categoryProfDev": "Global Professional Communication",
+    "categoryLanguages": "Foreign Languages",
+    "price": "Price"
   },
   "corporate": {
     "badge": "B2B Training Solutions",
     "title": "Train Your Team for Global Success",
     "subtitle": "Elevating your organization with customized language training programs. Our corporate solutions build communication excellence across your entire team.",
+    "subtitleHero": "Equipping healthcare systems and global corporations with cultural intelligence and professional communication skills.",
     "clients": "Corporate Clients",
     "professionals": "Trained Professionals",
     "satisfaction": "Satisfaction Rate",
     "exploreSolutions": "Explore Corporate Solutions",
-    "requestProposal": "Request Proposal"
+    "requestProposal": "Request Proposal",
+    "requestProposalCTA": "Request Corporate Proposal",
+    "bookDiscovery": "Book a Discovery Call",
+    "programsTitle": "Corporate Training Programs",
+    "programsSubtitle": "Customized language and communication training designed for organizational excellence",
+    "whyTitle": "Why Organizations Choose Us",
+    "whySubtitle": "Proven results that drive organizational excellence and compliance",
+    "trustedTitle": "Trusted by Leading Organizations",
+    "trustedSubtitle": "We serve organizations across multiple sectors",
+    "proposalTitle": "Request a Corporate Proposal",
+    "proposalSubtitle": "Let us design a customized training solution for your organization",
+    "yourName": "Your Name",
+    "emailAddress": "Email Address",
+    "companyName": "Company Name",
+    "yourOrganization": "Your Organization",
+    "teamSize": "Team Size",
+    "selectTeamSize": "Select team size",
+    "people5_20": "5-20 people",
+    "people21_50": "21-50 people",
+    "people51_100": "51-100 people",
+    "people100Plus": "100+ people",
+    "trainingInterest": "Training Interest",
+    "selectProgram": "Select training program",
+    "interestHealthcare": "Healthcare Communication & Language Access",
+    "interestBusiness": "Global Business Communication",
+    "interestCultural": "Cross-Cultural Intelligence",
+    "interestInterpreter": "Professional Interpreter Training",
+    "interestCustom": "Custom Training Solution",
+    "tellUsNeeds": "Tell Us About Your Needs",
+    "needsPlaceholder": "Describe your training goals and any specific requirements...",
+    "submitRequest": "Request Proposal",
+    "proposalReceived": "Proposal Request Received",
+    "thankYou": "Thank you, {{name}}!",
+    "proposalFollowUp": "Our corporate training team will review your request and send a customized proposal to {{email}} within 48 hours.",
+    "submitAnother": "Submit Another Request",
+    "preferDirect": "Prefer to speak directly? We're here to help.",
+    "durationLabel": "Duration:",
+    "idealForLabel": "Ideal For:",
+    "programs": {
+      "healthcare": {
+        "title": "Healthcare Communication & Language Access",
+        "description": "Train your healthcare team to work effectively with interpreters and ensure patient safety through clear communication.",
+        "duration": "20-40 hours",
+        "audience": "Healthcare Systems, Hospitals, Clinics"
+      },
+      "business": {
+        "title": "Global Business Communication",
+        "description": "Equip your team with professional email writing, presentation skills, and international etiquette for global success.",
+        "duration": "Customizable",
+        "audience": "Corporate Teams, International Businesses"
+      },
+      "cultural": {
+        "title": "Cross-Cultural Intelligence Training",
+        "description": "Reduce misunderstandings and build stronger relationships across diverse teams and international partnerships.",
+        "duration": "20 hours",
+        "audience": "Leadership Teams, Global Organizations"
+      },
+      "interpreter": {
+        "title": "Professional Interpreter Training",
+        "description": "Build an in-house interpreter team with 40-60 hour certification programs in Medical and Community Interpreting.",
+        "duration": "40-60 hours",
+        "audience": "Healthcare, Legal, Education, Social Services"
+      }
+    },
+    "benefits": {
+      "outcomes": {
+        "title": "Improved Patient Outcomes",
+        "description": "Reduce medical errors and improve patient satisfaction through effective language access training."
+      },
+      "team": {
+        "title": "Enhanced Team Performance",
+        "description": "Build communication excellence across diverse teams and reduce cultural misunderstandings."
+      },
+      "compliance": {
+        "title": "Compliance & Certification",
+        "description": "Meet legal requirements for language access in healthcare and ensure staff are properly trained and certified."
+      },
+      "custom": {
+        "title": "Customized Solutions",
+        "description": "Programs tailored to your organization's specific needs, industry, and goals."
+      }
+    },
+    "clients_list": {
+      "healthcare": "Healthcare Systems",
+      "education": "Educational Institutions",
+      "legal": "Legal & Social Services",
+      "global": "Global Corporations"
+    }
   },
   "whyChoose": {
     "title": "Why Choose Us",
@@ -70,6 +190,59 @@
     "practicalTitle": "Practical Focus",
     "practicalDesc": "Apply skills immediately with hands-on training, real scenarios, and industry-relevant certification"
   },
+  "whoFor": {
+    "badge": "WHO IT IS FOR",
+    "title": "Career Solutions for Professionals",
+    "subtitle": "Tailored programs designed for diverse professionals seeking to advance their careers through language and communication skills",
+    "bilingualTitle": "Bilingual Individuals",
+    "bilingualDesc": "Seeking professional certification to validate their language skills",
+    "corporateTitle": "Corporate Employees",
+    "corporateDesc": "Working in global environments who need advanced communication skills",
+    "healthcareTitle": "Healthcare Workers",
+    "healthcareDesc": "Who need to communicate effectively across language barriers",
+    "careerSeekerTitle": "Career Seekers",
+    "careerSeekerDesc": "Looking to integrate language skills into professional growth"
+  },
+  "award": {
+    "badge": "AWARD & RECOGNITION",
+    "caption": "Recognized at the Education 2.0 Conference (2026) for entrepreneurial leadership and innovation in education, reflecting a founder journey that began in 2017.",
+    "imageAlt": "Education 2.0 Conference Excellence In Education Award"
+  },
+  "founder": {
+    "badge": "EXECUTIVE LEADERSHIP",
+    "title": "Meet Our Founder",
+    "name": "Hanane Benalia",
+    "role": "Founder & Lead Instructor",
+    "credentials": "Credentials",
+    "cred1": "Master's in Healthcare Management",
+    "cred2": "Master's in International Business — University of Toulouse",
+    "cred3": "Retail and Marketing Experience",
+    "cred4": "Elementary School Founder since 2017",
+    "bio": "Founded by a healthcare language professional with 16 years of experience, Fluent Future Academy bridges the gap between learning and real-world professional access.",
+    "impactTitle": "Impact & Achievements",
+    "yearsExperience": "Years Experience",
+    "dedicated": "Dedicated to bridging the gap between learning and real-world professional access through expert-led training.",
+    "founderImageAlt": "Hanane Benalia — Founder & Lead Instructor"
+  },
+  "certification": {
+    "badge": "OFFICIAL CERTIFICATION",
+    "title": "Industry-Recognized Certificates",
+    "subtitle": "Upon successful completion of training hours and final assessments, students receive a signed Professional Certificate",
+    "modelTitle": "Our Certification Model",
+    "modelText": "Our certifications are designed to meet industry standards for healthcare, legal, and professional environments.",
+    "certTitle": "Certificate in Medical Interpreter Fundamentals",
+    "certHours": "40 hours",
+    "certDesc": "Healthcare communication certification meeting industry standards from our <strong>40-hour Medical Interpreter Fundamentals</strong> program",
+    "standard1": "Recognized by healthcare systems nationwide",
+    "standard2": "Aligned with IMIA and NCIHC standards",
+    "standard3": "Meets legal requirements for language access",
+    "standard4": "Professional development credits available"
+  },
+  "testimonials": {
+    "badge": "STUDENT SUCCESS STORIES",
+    "title": "Hear From Our Graduates",
+    "subtitle": "Real stories from professionals who transformed their careers through our programs"
+  },
   "footer": {
     "tagline": "When Language meets Intelligence",
     "navigation": "Navigation",
@@ -80,7 +253,17 @@
     "emailPlaceholder": "Your email",
     "subscribe": "Subscribe",
     "subscribeSuccess": "Success! You're subscribed.",
-    "copyright": "© 2026 Fluent Future Academy- LLC. All rights reserved."
+    "copyright": "© 2026 Fluent Future Academy- LLC. All rights reserved.",
+    "professionalAffiliations": "Professional Affiliations",
+    "ataMember": "ATA Member",
+    "ataFull": "American Translators Association",
+    "professionalEducationCenter": "Professional Education Center",
+    "inquiries": "Inquiries",
+    "admissions": "Admissions",
+    "partnerships": "Partnerships",
+    "privacyPolicy": "Privacy Policy",
+    "refundPolicy": "Refund Policy",
+    "terms": "Terms & Conditions"
   },
   "whatsapp": {
     "chatWithUs": "Chat with us"
@@ -98,6 +281,334 @@
     "viewPrograms": "View Programs",
     "contactUs": "Contact Us",
     "loading": "Loading...",
-    "notFound": "Not Found"
+    "notFound": "Not Found",
+    "home": "Home",
+    "close": "Close",
+    "submit": "Submit",
+    "yes": "Yes",
+    "no": "No",
+    "back": "Back"
+  },
+  "about": {
+    "whoWeAreBadge": "WHO WE ARE",
+    "title": "We Are More Than a Language School",
+    "subtitle": "We are a professional integration center that helps individuals thrive in real-world environments.",
+    "navigateTitle": "Navigate the US Workplace",
+    "navigateDesc": "Build the skills to succeed in American professional culture",
+    "communicateTitle": "Communicate Effectively",
+    "communicateDesc": "In healthcare, corporate, and international settings",
+    "confidenceTitle": "Build Real-World Confidence",
+    "confidenceDesc": "Perform with confidence in professional environments",
+    "founderVisionBadge": "FOUNDER'S VISION",
+    "founderVisionTitle": "A Message From Our Founder",
+    "founderVisionSubtitle": "Hear directly from Hanane Benalia about the mission and vision behind Fluent Future Academy",
+    "watchMessage": "Watch Founder's Message",
+    "playFounder": "Play Founder's Message",
+    "videoTitle": "A Message From Our Founder - Hanane Benalia",
+    "missionTitle": "Our Mission",
+    "missionText": "Our mission is to empower individuals with the language and communication skills needed to succeed in healthcare, education, business, and international environments.",
+    "impactBadge": "REAL-WORLD IMPACT",
+    "impactTitle": "Where Our Work Makes a Difference",
+    "impactSubtitle": "Transforming lives and communities through professional language and communication skills",
+    "healthcareCommTitle": "Healthcare Communication",
+    "healthcareCommDesc": "Improving communication in healthcare settings to ensure patient safety",
+    "workplaceTitle": "Workplace Integration",
+    "workplaceDesc": "Helping multilingual individuals thrive in US workplaces",
+    "highStakesTitle": "High-Stakes Confidence",
+    "highStakesDesc": "Building confidence in high-stakes professional environments",
+    "leadershipBadge": "LEADERSHIP",
+    "meetFounderTitle": "Meet the Founder",
+    "leadershipImpact": "Leadership Impact",
+    "outcomesTitle": "Our Impact & Outcomes",
+    "outcomesSubtitle": "Making a meaningful difference in communities, healthcare systems, and organizations worldwide",
+    "graduatesTitle": "Where Our Graduates Work",
+    "graduatesText": "Our graduates are currently working in hospitals, schools, and international organizations.",
+    "affiliationsBadge": "PROFESSIONAL AFFILIATIONS",
+    "affiliationsTitle": "Proudly Associated With",
+    "affiliationsSubtitle": "Committed to professional standards and excellence",
+    "valuesTitle": "Our Core Values",
+    "valuesSubtitle": "The principles that guide everything we do",
+    "ctaTitle": "Ready to Transform Your Future?",
+    "ctaSubtitle": "Join hundreds of professionals who have advanced their careers through our comprehensive language and communication training programs.",
+    "impactAreas": {
+      "patientSafety": {
+        "title": "Patient Safety",
+        "description": "Bridging language gaps in healthcare to ensure accurate communication and better health outcomes"
+      },
+      "cultural": {
+        "title": "Cultural Connection",
+        "description": "Breaking down cultural barriers to foster understanding and collaboration across diverse communities"
+      },
+      "workforce": {
+        "title": "Workforce Integration",
+        "description": "Supporting U.S. workforce integration by equipping professionals with essential language and communication skills"
+      },
+      "community": {
+        "title": "Community Empowerment",
+        "description": "Empowering individuals to access services, advocate for themselves, and participate fully in society"
+      }
+    },
+    "workplaces": {
+      "hospitals": {
+        "name": "Hospitals & Healthcare Systems",
+        "ex1": "Medical Interpreters",
+        "ex2": "Patient Services",
+        "ex3": "Language Access Coordinators"
+      },
+      "schools": {
+        "name": "Schools & Universities",
+        "ex1": "Educational Interpreters",
+        "ex2": "ESL Coordinators",
+        "ex3": "Community Liaisons"
+      },
+      "international": {
+        "name": "International Organizations",
+        "ex1": "Global Communication Specialists",
+        "ex2": "Cross-Cultural Consultants",
+        "ex3": "NGO Program Coordinators"
+      },
+      "corporate": {
+        "name": "Corporate & Business",
+        "ex1": "International Business Development",
+        "ex2": "Global Operations",
+        "ex3": "Corporate Training Specialists"
+      }
+    },
+    "values": {
+      "excellence": {
+        "title": "Excellence",
+        "description": "We maintain the highest standards in language education and professional certification"
+      },
+      "accessibility": {
+        "title": "Accessibility",
+        "description": "Quality education should be accessible to all who seek to advance their language skills"
+      },
+      "respect": {
+        "title": "Cultural Respect",
+        "description": "We honor diverse perspectives and foster inclusive learning environments"
+      },
+      "impact": {
+        "title": "Real-World Impact",
+        "description": "Our programs are designed to create immediate, practical value in professional settings"
+      }
+    }
+  },
+  "articles": {
+    "title": "Insights & Resources",
+    "subtitle": "Expert perspectives on language education, career development, and professional growth in healthcare and global communication.",
+    "ctaTitle": "Ready to Transform Your Career?",
+    "ctaSubtitle": "Turn insights into action. Explore our professional training programs and take the next step in your language learning journey.",
+    "exploreBtn": "Explore Programs",
+    "contactBtn": "Contact Us",
+    "breadcrumb": "Articles",
+    "notFoundTitle": "Article Not Found",
+    "notFoundDesc": "The article you're looking for doesn't exist.",
+    "browseAll": "Browse All Articles",
+    "back": "Back to Articles",
+    "conclusion": "Conclusion",
+    "interestedTitle": "Interested in Professional Training?",
+    "interestedSubtitle": "Discover how our programs can help you achieve your language learning and career goals.",
+    "items": {
+      "medical-interpreting": {
+        "title": "Why Medical Interpreting is a Growing Career",
+        "excerpt": "Explore the increasing demand for medical interpreters and why this career path offers stability, purpose, and excellent growth opportunities.",
+        "introduction": "Medical interpreting has emerged as one of the fastest-growing professions in healthcare. As communities become increasingly diverse, the demand for skilled medical interpreters continues to rise exponentially.",
+        "section1Heading": "The Healthcare Language Access Crisis",
+        "section1Content": "Over 25 million people in the United States have limited English proficiency. Healthcare organizations are legally required to provide language access services, creating unprecedented demand for qualified medical interpreters. This isn't just a trend - it's a fundamental shift in how healthcare is delivered.",
+        "section2Heading": "Legal Requirements Drive Demand",
+        "section2Content": "Title VI of the Civil Rights Act and the Affordable Care Act mandate that healthcare providers offer language access services. Hospitals and clinics that fail to provide interpreters face significant legal and financial consequences, making certified medical interpreters essential team members.",
+        "section3Heading": "Competitive Compensation",
+        "section3Content": "Medical interpreters earn competitive salaries with strong benefits. Entry-level positions start at $45,000-$55,000 annually, with experienced interpreters earning $60,000-$75,000 or more. Many interpreters supplement income with freelance work, significantly increasing earning potential.",
+        "section4Heading": "Flexible Career Paths",
+        "section4Content": "Medical interpreters enjoy diverse work environments - hospitals, clinics, telehealth platforms, and as independent contractors. The profession offers both stability through full-time employment and flexibility through freelance opportunities.",
+        "section5Heading": "Making a Real Difference",
+        "section5Content": "Beyond financial rewards, medical interpreters save lives by ensuring accurate communication between patients and providers. Every day, interpreters prevent medical errors, improve patient outcomes, and bridge cultural gaps in healthcare.",
+        "conclusion": "With healthcare systems expanding language access programs and aging populations requiring more medical services, medical interpreting offers a rewarding career with excellent long-term prospects. The combination of strong demand, competitive pay, and meaningful work makes this an ideal time to enter the field."
+      },
+      "bilingual-healthcare": {
+        "title": "Benefits of Bilingual Professionals in Healthcare",
+        "excerpt": "Discover how bilingual skills transform healthcare delivery, improve patient outcomes, and create career opportunities for multilingual professionals.",
+        "introduction": "Bilingual professionals are revolutionizing healthcare delivery. Their ability to bridge language and cultural gaps transforms patient care, reduces errors, and creates more inclusive healthcare environments.",
+        "section1Heading": "Improved Patient Safety",
+        "section1Content": "Language barriers contribute to medical errors, misdiagnoses, and poor treatment adherence. Bilingual healthcare professionals eliminate these risks by ensuring clear, accurate communication. Studies show that language-concordant care reduces hospital readmissions and improves treatment outcomes significantly.",
+        "section2Heading": "Enhanced Patient Trust and Satisfaction",
+        "section2Content": "Patients who communicate in their native language report higher satisfaction, better understanding of their conditions, and stronger relationships with healthcare providers. This trust leads to better health outcomes and increased treatment compliance.",
+        "section3Heading": "Cultural Competence in Care",
+        "section3Content": "Bilingual professionals bring cultural understanding that extends beyond language. They navigate cultural beliefs about health, family dynamics in medical decisions, and traditional medicine practices - creating more holistic, respectful care.",
+        "section4Heading": "Cost Savings for Healthcare Systems",
+        "section4Content": "Effective language access reduces unnecessary tests, emergency visits, and hospital readmissions. Healthcare organizations save millions annually by investing in bilingual staff and professional interpreters, making language services cost-effective.",
+        "section5Heading": "Career Advancement Opportunities",
+        "section5Content": "Bilingual healthcare workers command higher salaries and access more advancement opportunities. Hospitals actively recruit multilingual professionals, and many offer language proficiency bonuses ranging from $2,000 to $10,000 annually.",
+        "section6Heading": "Community Impact",
+        "section6Content": "Bilingual professionals serve as bridges between healthcare systems and underserved communities. They advocate for patients, educate families, and reduce health disparities affecting immigrant and refugee populations.",
+        "conclusion": "The benefits of bilingual professionals in healthcare extend far beyond language translation. They improve safety, build trust, save costs, and create more equitable healthcare systems. For professionals with language skills, healthcare offers meaningful career paths where linguistic abilities become invaluable assets."
+      },
+      "global-careers": {
+        "title": "How Language Skills Open Global Career Opportunities",
+        "excerpt": "Learn how multilingual abilities unlock international career paths, increase earning potential, and position professionals for success in the global economy.",
+        "introduction": "In today's interconnected global economy, language skills are no longer just nice to have - they're essential competitive advantages. Multilingual professionals access opportunities, salaries, and career paths unavailable to monolingual colleagues.",
+        "section1Heading": "The Global Business Advantage",
+        "section1Content": "Companies expanding internationally need employees who can navigate foreign markets, build relationships, and close deals across cultural boundaries. Professionals with language skills become indispensable in international business development, supply chain management, and global operations.",
+        "section2Heading": "Increased Earning Potential",
+        "section2Content": "Studies consistently show that bilingual professionals earn 5-20% more than monolingual peers. In specialized fields like international law, finance, and technology, multilingual professionals command six-figure salaries and executive positions.",
+        "section3Heading": "Remote Work Revolution",
+        "section3Content": "Language skills unlock remote opportunities with international companies. Professionals fluent in multiple languages work for organizations worldwide, earning competitive international salaries while living anywhere.",
+        "section4Heading": "Career Flexibility and Mobility",
+        "section4Content": "Multilingual professionals enjoy greater career flexibility - relocating internationally, accepting expatriate assignments, or transitioning between industries that value language abilities. This mobility provides career security in changing job markets.",
+        "section5Heading": "Industries Hiring Multilingual Talent",
+        "section5Content": "High-demand sectors include: international trade and commerce, healthcare and medical services, technology and software development, education and training, legal and court interpretation, government and diplomacy, tourism and hospitality, and financial services. Each offers distinct paths for language professionals.",
+        "section6Heading": "Competitive Differentiation",
+        "section6Content": "When competing for positions, language skills differentiate candidates. Employers view multilingual professionals as culturally intelligent, adaptable, and capable of handling complex global challenges - qualities valued in leadership positions.",
+        "section7Heading": "Building International Networks",
+        "section7Content": "Language abilities facilitate relationship-building across borders. Professionals who speak clients' languages establish trust faster, negotiate more effectively, and maintain stronger international partnerships - creating career-long competitive advantages.",
+        "conclusion": "Language skills are career multipliers in the global economy. They increase earning potential, expand opportunities, and provide security in an interconnected world. Whether you're starting your career or advancing to executive levels, multilingual abilities open doors that remain closed to others."
+      },
+      "communication-healthcare": {
+        "title": "Communication Skills for Healthcare Professionals",
+        "excerpt": "Essential communication strategies that healthcare professionals need to deliver patient-centered care, build trust, and work effectively in diverse medical teams.",
+        "introduction": "Effective communication is the foundation of quality healthcare. Yet many healthcare professionals receive limited training in communication skills despite spending most of their day communicating with patients, families, and colleagues.",
+        "section1Heading": "Patient-Centered Communication",
+        "section1Content": "Patient-centered communication focuses on understanding the patient's perspective, concerns, and preferences. This approach improves diagnosis accuracy, treatment adherence, and patient satisfaction. Key techniques include active listening, open-ended questions, and validating patient concerns.",
+        "section2Heading": "Breaking Down Medical Jargon",
+        "section2Content": "Healthcare professionals must translate complex medical terminology into language patients understand. Using plain language, visual aids, and teach-back methods ensures patients comprehend their conditions, treatments, and care instructions - reducing errors and improving outcomes.",
+        "section3Heading": "Navigating Difficult Conversations",
+        "section3Content": "Delivering bad news, discussing end-of-life care, or addressing non-compliance requires advanced communication skills. Frameworks like SPIKES (Setting, Perception, Invitation, Knowledge, Empathy, Summary) help professionals handle sensitive topics with compassion and clarity.",
+        "section4Heading": "Working with Interpreters",
+        "section4Content": "When language barriers exist, healthcare professionals must work effectively with interpreters. This includes proper positioning, speaking in first person, allowing time for interpretation, and verifying patient understanding through qualified interpreters rather than family members.",
+        "section5Heading": "Cultural Competence in Communication",
+        "section5Content": "Cultural factors influence how patients express pain, make medical decisions, and interact with healthcare providers. Culturally competent communication respects these differences while delivering evidence-based care. Understanding cultural beliefs about health, family roles, and traditional practices improves provider-patient relationships.",
+        "section6Heading": "Interprofessional Communication",
+        "section6Content": "Healthcare teams require clear, concise communication among doctors, nurses, therapists, and support staff. Tools like SBAR (Situation, Background, Assessment, Recommendation) standardize communication, reducing errors and improving coordination of care.",
+        "section7Heading": "Empathy and Emotional Intelligence",
+        "section7Content": "Recognizing and responding to patients' emotional states builds trust and improves care. Empathetic communication acknowledges patient fears, validates concerns, and demonstrates genuine care - factors that significantly impact patient satisfaction and outcomes.",
+        "section8Heading": "Documentation and Written Communication",
+        "section8Content": "Clear medical documentation ensures continuity of care and legal protection. Healthcare professionals must balance thorough documentation with efficiency, using standardized formats and precise language that other providers can easily understand.",
+        "conclusion": "Communication skills are as essential as clinical knowledge in healthcare. Professionals who master patient-centered communication, cultural competence, and interprofessional collaboration deliver better care, experience less burnout, and build more rewarding careers. Investing in communication training creates better outcomes for patients and providers alike."
+      }
+    }
+  },
+  "registration": {
+    "registerFor": "Register for {{program}}",
+    "program": "Program",
+    "subtitle": "Start your learning journey today",
+    "fullName": "Full Name",
+    "emailAddress": "Email Address",
+    "phoneNumber": "Phone Number",
+    "preferredStartDate": "Preferred Start Date",
+    "submit": "Submit Registration",
+    "thankYou": "Thank You!",
+    "loginText": "Our admissions team will send your Teachable login link to",
+    "withinHours": "within 24 hours.",
+    "close": "Close",
+    "closeModal": "Close modal"
+  },
+  "careers": {
+    "title": "Careers",
+    "intro": "Join our team and help shape the future of language education. Whether you are a passionate instructor or a skilled professional in another area, we would love to hear from you.",
+    "teachingTab": "Teaching Positions",
+    "otherTab": "Other Positions",
+    "quickReview": "Quick Review",
+    "quickReviewDesc": "We typically review applications within 5-7 business days.",
+    "interviewProcess": "Interview Process",
+    "interviewProcessDesc": "Selected candidates will be invited for a preselection interview.",
+    "questions": "Questions?",
+    "questionsDesc": "Contact us at",
+    "applicationSubmitted": "Application Submitted",
+    "applicationThankYou": "Thank you for applying! We will review your application and contact you soon.",
+    "errorTitle": "Error",
+    "resumeRequired": "Resume is required",
+    "personalInfo": "Personal Information",
+    "fullName": "Full Name",
+    "email": "Email Address",
+    "phone": "Phone Number",
+    "cityState": "City & State",
+    "linkedin": "LinkedIn Profile (optional)",
+    "uploadResume": "Upload Resume",
+    "languages": "Languages",
+    "languagesSpeak": "Languages You Speak",
+    "languagesSpeakPh": "e.g., English, Spanish, French",
+    "languagesTeach": "Languages You Can Teach",
+    "languagesTeachPh": "e.g., Spanish, French",
+    "proficiencyLevel": "Proficiency Level",
+    "programInterest": "Program Interest",
+    "whichPrograms": "Which programs interest you?",
+    "specificSubject": "Specific Subject or Program",
+    "teachingPreferences": "Teaching Preferences",
+    "ageGroup": "Age Group",
+    "selectAgeGroup": "Select age group",
+    "level": "Level",
+    "teachingMode": "Teaching Mode",
+    "experience": "Experience",
+    "yearsExp": "Years of Teaching Experience",
+    "profEdExp": "Professional Education Experience",
+    "eduBackground": "Educational Background",
+    "previousExp": "Previous Teaching Experience",
+    "professionalBackground": "Professional Background",
+    "relevantProfExp": "Relevant Professional Experience",
+    "availability": "Availability",
+    "schedule": "Schedule Availability",
+    "schedulePh": "e.g., Weekdays 9am-5pm, Weekends available",
+    "positionType": "Position Type",
+    "selectPositionType": "Select position type",
+    "partTime": "Part-time",
+    "contract": "Contract",
+    "fullTime": "Full-time",
+    "startDate": "Start Date",
+    "travel": "Travel",
+    "willingTravel": "Willing to Travel",
+    "travelDistance": "Travel Distance",
+    "travelDistancePh": "e.g., Up to 50 miles",
+    "occasionally": "Occasionally",
+    "motivation": "Motivation",
+    "whyJoin": "Why join Fluent Future Academy?",
+    "strongFit": "Why are you a strong fit?",
+    "additionalInfo": "Additional Information",
+    "documents": "Documents",
+    "certifications": "Certifications (optional)",
+    "submitApplication": "Submit Application",
+    "submitting": "Submitting...",
+    "clear": "Clear",
+    "clickUpload": "Click to upload or drag and drop",
+    "selected": "Selected:",
+    "fileTypes": "PDF, DOC, DOCX accepted",
+    "position": "Position",
+    "positionApply": "Position applying for",
+    "selectPosition": "Select a position",
+    "yearsExpRelevant": "Years of relevant experience",
+    "yearsExpPh": "e.g., 3-5 years",
+    "eduBackgroundReq": "Educational background",
+    "relevantProfExpReq": "Relevant professional experience",
+    "whyJoinFull": "Why do you want to join Fluent Future Academy?",
+    "strongFitFull": "Why are you a strong fit for this role?",
+    "additionalInfoLower": "Additional information",
+    "proficiency": {
+      "beginner": "Beginner",
+      "intermediate": "Intermediate",
+      "advanced": "Advanced",
+      "native": "Native"
+    },
+    "ageGroups": {
+      "children": "Children",
+      "teenagers": "Teenagers",
+      "adults": "Adults",
+      "professionals": "Professionals"
+    },
+    "modes": {
+      "online": "Online",
+      "inPerson": "In-person",
+      "hybrid": "Hybrid"
+    },
+    "programsList": {
+      "esl": "ESL",
+      "toefl": "TOEFL",
+      "medical": "Medical Interpreter Training",
+      "foreign": "Foreign Languages",
+      "business": "Business Communication"
+    },
+    "positions": {
+      "techSupport": "Technical Support",
+      "programCoord": "Program Coordinator",
+      "marketing": "Marketing Specialist"
+    }
   }
 }
