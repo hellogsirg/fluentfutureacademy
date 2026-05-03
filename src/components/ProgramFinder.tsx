@@ -69,7 +69,7 @@ export default function ProgramFinder() {
               >
                 {program.image && (
                   <div className="h-48 overflow-hidden bg-gray-200">
-                    <img src={program.image} alt={program.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
+                    <img src={program.image} alt={program.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy" decoding="async" />
                   </div>
                 )}
                 <div className={`h-2 bg-gradient-to-r ${program.color}`}></div>

@@ -354,6 +354,8 @@ export default function Home() {
                     src="/education_image_.jpeg"
                     alt="Education 2.0 Conference Excellence In Education Award"
                     className="w-full h-auto rounded-md block"
+                    loading="lazy"
+                    decoding="async"
                   />
                 </div>
               </div>

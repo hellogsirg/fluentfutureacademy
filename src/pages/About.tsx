@@ -251,6 +251,8 @@ export default function About() {
                       alt="Hanane Benalia — Founder & Lead Instructor"
                       className="w-full h-full object-cover"
                       style={{ objectPosition: '50% 20%' }}
+                      loading="lazy"
+                      decoding="async"
                     />
                   </div>
                   <div className="text-center sm:text-left">
@@ -345,6 +347,8 @@ export default function About() {
                     src="/education_image_.jpeg"
                     alt="Education 2.0 Conference Excellence In Education Award"
                     className="w-full h-auto rounded-md block"
+                    loading="lazy"
+                    decoding="async"
                   />
                 </div>
               </div>
@@ -433,6 +437,8 @@ export default function About() {
                       src={ataLogo}
                       alt="ATA - American Translators Association Logo"
                       className="max-w-full max-h-full object-contain"
+                      loading="lazy"
+                      decoding="async"
                     />
                   </div>
                   <h3 className="text-white text-xl font-bold text-center mb-2">ATA Member</h3>

@@ -57,7 +57,7 @@ export default function ProgramDetail() {
     <div className="min-h-screen bg-white">
       {program.image && (
         <div className="relative max-h-96 overflow-hidden bg-gray-900">
-          <img src={program.image} alt={program.title} className="w-full h-auto object-cover" />
+          <img src={program.image} alt={program.title} className="w-full h-auto object-cover" fetchPriority="high" decoding="async" />
           <div className="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-900/50 to-transparent"></div>
         </div>
       )}

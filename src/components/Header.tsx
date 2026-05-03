@@ -35,6 +35,8 @@ export default function Header() {
               src="/fluent_future_academy_logo.jpeg"
               alt="Fluent Future Academy Logo"
               className="h-[64px] w-auto object-contain"
+              fetchPriority="high"
+              decoding="async"
             />
           </Link>
 
