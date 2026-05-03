@@ -1,16 +1,15 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, lazy, Suspense } from 'react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { BookOpen, Globe, Users, Award, TrendingUp, Briefcase, MessageCircle, ChevronDown, Zap, Heart, Rocket, Target } from 'lucide-react';
-import { lazy, Suspense } from 'react';
 import RegistrationModal from '../components/RegistrationModal';
 import LazySection from '../components/LazySection';
 import { BackgroundPaths } from '../components/ui/background-paths';
 import TypewriterEffect from '../components/ui/typewriter-effect';
 import VaporizeTextCycle, { Tag } from '../components/ui/vapour-text-effect';
+import { setSEO } from '../utils/seo';
 const CertificationShowcase = lazy(() => import('../components/CertificationShowcase'));
 const FounderProfile = lazy(() => import('../components/FounderProfile'));
-import { setSEO } from '../utils/seo';
 
 export default function Home() {
   const { t } = useTranslation();
