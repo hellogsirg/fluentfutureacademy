@@ -69,6 +69,8 @@ export default function Footer() {
                 alt="Fluent Future Academy Logo"
                 className="h-[72px] w-auto object-contain rounded-lg"
                 style={{ mixBlendMode: 'screen' }}
+                loading="lazy"
+                decoding="async"
               />
             </Link>
             <p className="text-sm leading-relaxed">
@@ -153,6 +155,8 @@ export default function Footer() {
                       src={ataLogo}
                       alt="ATA - American Translators Association Logo"
                       className="max-w-full max-h-full object-contain"
+                      loading="lazy"
+                      decoding="async"
                     />
                   </div>
                 </div>

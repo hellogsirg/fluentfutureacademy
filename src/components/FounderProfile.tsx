@@ -27,6 +27,8 @@ export default function FounderProfile() {
                   alt="Hanane Benalia — Founder & Lead Instructor"
                   className="w-full h-full object-cover"
                   style={{ objectPosition: '50% 20%' }}
+                  loading="lazy"
+                  decoding="async"
                 />
               </div>
               <div className="text-center lg:text-left">

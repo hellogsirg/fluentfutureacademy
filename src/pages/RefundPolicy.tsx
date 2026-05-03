@@ -1,12 +1,15 @@
 import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { DollarSign, Calendar, AlertCircle, ChevronRight, Clock, FileText, TrendingDown, Info } from 'lucide-react';
-import { updatePageTitle, updateMetaDescription } from '../utils/seo';
+import { setSEO } from '../utils/seo';
 
 export default function RefundPolicy() {
   useEffect(() => {
-    updatePageTitle('Refund Policy');
-    updateMetaDescription('Fluent Future Academy tuition refund policy — understand refund eligibility, withdrawal timelines, non-refundable fees, and financial aid adjustments.');
+    setSEO({
+      title: 'Refund Policy',
+      description: 'Fluent Future Academy tuition refund policy — understand refund eligibility, withdrawal timelines, non-refundable fees, and financial aid adjustments.',
+      canonicalPath: '/refund-policy',
+    });
     window.scrollTo(0, 0);
   }, []);
 

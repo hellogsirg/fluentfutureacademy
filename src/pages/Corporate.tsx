@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Briefcase, Building2, Users, Award, CheckCircle, TrendingUp, Globe, Shield, MessageCircle } from 'lucide-react';
-import { updatePageTitle, updateMetaDescription } from '../utils/seo';
+import { setSEO } from '../utils/seo';
 
 export default function Corporate() {
   const [formData, setFormData] = useState({
@@ -14,8 +14,11 @@ export default function Corporate() {
   const [isSubmitted, setIsSubmitted] = useState(false);
 
   useEffect(() => {
-    updatePageTitle('Corporate Training');
-    updateMetaDescription();
+    setSEO({
+      title: 'Corporate Training',
+      description: 'Customized corporate language training for healthcare systems and global organizations. Build communication excellence and cultural intelligence across your team.',
+      canonicalPath: '/corporate',
+    });
   }, []);
   const corporatePrograms = [
     {

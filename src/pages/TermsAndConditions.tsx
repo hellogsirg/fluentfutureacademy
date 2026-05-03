@@ -15,14 +15,15 @@ import {
   Info,
   Shield,
 } from 'lucide-react';
-import { updatePageTitle, updateMetaDescription } from '../utils/seo';
+import { setSEO } from '../utils/seo';
 
 export default function TermsAndConditions() {
   useEffect(() => {
-    updatePageTitle('Terms & Conditions');
-    updateMetaDescription(
-      'Fluent Future Academy terms and conditions — enrollment agreement, program delivery, payment, attendance, code of conduct, and liability policies.'
-    );
+    setSEO({
+      title: 'Terms & Conditions',
+      description: 'Fluent Future Academy terms and conditions — enrollment agreement, program delivery, payment, attendance, code of conduct, and liability policies.',
+      canonicalPath: '/terms-and-conditions',
+    });
     window.scrollTo(0, 0);
   }, []);
 

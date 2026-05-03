@@ -1,10 +1,19 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Briefcase } from 'lucide-react';
 import TeacherApplicationForm from '../components/TeacherApplicationForm';
 import OtherPositionsForm from '../components/OtherPositionsForm';
+import { setSEO } from '../utils/seo';
 
 export default function TeacherApplication() {
   const [activeTab, setActiveTab] = useState<'teaching' | 'other'>('teaching');
+
+  useEffect(() => {
+    setSEO({
+      title: 'Careers',
+      description: 'Join the Fluent Future Academy team. Apply for teaching, technical support, coordinator, and marketing positions.',
+      canonicalPath: '/teacher-application',
+    });
+  }, []);
 
   return (
     <div className="min-h-screen bg-gray-50">

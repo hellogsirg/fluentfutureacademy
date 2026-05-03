@@ -2,12 +2,15 @@ import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { ChevronRight, MessageCircle } from 'lucide-react';
 import { articles } from '../data/articles';
-import { updatePageTitle, updateMetaDescription } from '../utils/seo';
+import { setSEO } from '../utils/seo';
 
 export default function Articles() {
   useEffect(() => {
-    updatePageTitle('Articles');
-    updateMetaDescription();
+    setSEO({
+      title: 'Articles',
+      description: 'Read expert articles on language learning, interpreter training, ESL education, and professional communication from Fluent Future Academy.',
+      canonicalPath: '/articles',
+    });
   }, []);
 
   return (

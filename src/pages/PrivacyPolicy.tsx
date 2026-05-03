@@ -1,12 +1,15 @@
 import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { Shield, Lock, Eye, Users, FileText, Mail, ChevronRight, AlertCircle } from 'lucide-react';
-import { updatePageTitle, updateMetaDescription } from '../utils/seo';
+import { setSEO } from '../utils/seo';
 
 export default function PrivacyPolicy() {
   useEffect(() => {
-    updatePageTitle('Privacy Policy');
-    updateMetaDescription('Fluent Future Academy privacy policy — how we collect, use, and protect your personal information in compliance with FERPA and applicable laws.');
+    setSEO({
+      title: 'Privacy Policy',
+      description: 'Fluent Future Academy privacy policy — how we collect, use, and protect your personal information in compliance with FERPA and applicable laws.',
+      canonicalPath: '/privacy-policy',
+    });
     window.scrollTo(0, 0);
   }, []);
 

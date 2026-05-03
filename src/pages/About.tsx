@@ -1,14 +1,19 @@
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Globe, Award, Users, TrendingUp, HeartPulse, GraduationCap, Building2, Briefcase, Target, MessageCircle, Clock, School, CheckCircle2, Stethoscope, Handshake, Zap } from 'lucide-react';
-import { updatePageTitle, updateMetaDescription } from '../utils/seo';
+import { setSEO } from '../utils/seo';
+import { useInView } from '../hooks/useInView';
 import ataLogo from '../assets/ata-logo.webp';
 
 export default function About() {
   const [videoPlaying, setVideoPlaying] = useState(false);
+  const { ref: videoRef, inView: videoInView } = useInView<HTMLDivElement>({ rootMargin: '300px' });
   useEffect(() => {
-    updatePageTitle('About Us');
-    updateMetaDescription('Professional training led by Hanane Benalia. Empowering individuals with language and communication skills for healthcare, education, business, and international environments.');
+    setSEO({
+      title: 'About Us',
+      description: 'Learn about Fluent Future Academy, founded by Hanane Benalia — a healthcare language professional with 16 years of experience bridging language and professional success.',
+      canonicalPath: '/about',
+    });
   }, []);
 
   const impactAreas = [
@@ -135,16 +140,19 @@ export default function About() {
               Hear directly from Hanane Benalia about the mission and vision behind Fluent Future Academy
             </p>
           </div>
-          <div className="mx-auto" style={{ maxWidth: '800px' }}>
+          <div className="mx-auto" style={{ maxWidth: '800px' }} ref={videoRef}>
             <div className="relative rounded-2xl overflow-hidden shadow-2xl border-4 border-emerald-600/20 ring-1 ring-blue-900/10 bg-black">
               <div className="relative w-full" style={{ paddingBottom: '56.25%' }}>
-                <iframe
-                  src={`https://drive.google.com/file/d/1rYfIbeK_11CHztWQ7109fdb3mtyAOANB/preview${videoPlaying ? '?autoplay=1' : ''}`}
-                  className="absolute inset-0 w-full h-full"
-                  allow="autoplay; encrypted-media"
-                  allowFullScreen
-                  title="A Message From Our Founder - Hanane Benalia"
-                />
+                {videoInView && (
+                  <iframe
+                    src={`https://drive.google.com/file/d/1rYfIbeK_11CHztWQ7109fdb3mtyAOANB/preview${videoPlaying ? '?autoplay=1' : ''}`}
+                    className="absolute inset-0 w-full h-full"
+                    allow="autoplay; encrypted-media"
+                    allowFullScreen
+                    loading="lazy"
+                    title="A Message From Our Founder - Hanane Benalia"
+                  />
+                )}
                 {!videoPlaying && (
                   <button
                     type="button"
@@ -251,6 +259,8 @@ export default function About() {
                       alt="Hanane Benalia — Founder & Lead Instructor"
                       className="w-full h-full object-cover"
                       style={{ objectPosition: '50% 20%' }}
+                      loading="lazy"
+                      decoding="async"
                     />
                   </div>
                   <div className="text-center sm:text-left">
@@ -345,6 +355,8 @@ export default function About() {
                     src="/education_image_.jpeg"
                     alt="Education 2.0 Conference Excellence In Education Award"
                     className="w-full h-auto rounded-md block"
+                    loading="lazy"
+                    decoding="async"
                   />
                 </div>
               </div>
@@ -433,6 +445,8 @@ export default function About() {
                       src={ataLogo}
                       alt="ATA - American Translators Association Logo"
                       className="max-w-full max-h-full object-contain"
+                      loading="lazy"
+                      decoding="async"
                     />
                   </div>
                   <h3 className="text-white text-xl font-bold text-center mb-2">ATA Member</h3>

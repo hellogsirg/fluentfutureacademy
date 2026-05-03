@@ -2,7 +2,7 @@ import { useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { ChevronRight, MessageCircle } from 'lucide-react';
 import { articles } from '../data/articles';
-import { updatePageTitle, updateMetaDescription } from '../utils/seo';
+import { setSEO } from '../utils/seo';
 
 export default function ArticleDetail() {
   const { id } = useParams<{ id: string }>();
@@ -11,8 +11,14 @@ export default function ArticleDetail() {
   useEffect(() => {
     window.scrollTo(0, 0);
     if (article) {
-      updatePageTitle(article.title);
-      updateMetaDescription(article.excerpt);
+      setSEO({
+        title: article.title,
+        description: article.excerpt,
+        canonicalPath: `/articles/${article.id}`,
+        ogType: 'article',
+      });
+    } else {
+      setSEO({ title: 'Article Not Found', noindex: true });
     }
   }, [id, article]);
 
