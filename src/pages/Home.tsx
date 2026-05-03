@@ -2,12 +2,14 @@ import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { BookOpen, Globe, Users, Award, TrendingUp, Briefcase, MessageCircle, ChevronDown, Zap, Heart, Rocket, Target } from 'lucide-react';
-import CertificationShowcase from '../components/CertificationShowcase';
-import FounderProfile from '../components/FounderProfile';
+import { lazy, Suspense } from 'react';
 import RegistrationModal from '../components/RegistrationModal';
+import LazySection from '../components/LazySection';
 import { BackgroundPaths } from '../components/ui/background-paths';
 import TypewriterEffect from '../components/ui/typewriter-effect';
 import VaporizeTextCycle, { Tag } from '../components/ui/vapour-text-effect';
+const CertificationShowcase = lazy(() => import('../components/CertificationShowcase'));
+const FounderProfile = lazy(() => import('../components/FounderProfile'));
 import { setSEO } from '../utils/seo';
 
 export default function Home() {
@@ -327,48 +329,58 @@ export default function Home() {
         </div>
       </section>
 
-      <CertificationShowcase />
+      <LazySection minHeight="600px">
+        <Suspense fallback={null}>
+          <CertificationShowcase />
+        </Suspense>
+      </LazySection>
 
-      <FounderProfile />
+      <LazySection minHeight="600px">
+        <Suspense fallback={null}>
+          <FounderProfile />
+        </Suspense>
+      </LazySection>
 
-      <section className="py-16 bg-white">
-        <div className="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <div className="inline-block px-4 py-2 bg-emerald-600/20 backdrop-blur-sm rounded-full border border-emerald-400/30 mb-4">
-              <span className="text-emerald-700 text-sm font-bold">AWARD & RECOGNITION</span>
-            </div>
-          </div>
-
-          <div className="flex flex-col items-center justify-center">
-            <div className="mb-6 flex justify-center">
-              <div
-                className="p-2 rounded-xl bg-gradient-to-br from-amber-300 via-yellow-500 to-amber-600 ring-1 ring-amber-200/70"
-                style={{
-                  maxWidth: '400px',
-                  width: '100%',
-                  boxShadow: '0 0 30px rgba(212, 175, 55, 0.45), 0 10px 25px -5px rgba(180, 130, 20, 0.35)',
-                }}
-              >
-                <div className="rounded-lg p-[2px] bg-amber-50/80">
-                  <img
-                    src="/education_image_.jpeg"
-                    alt="Education 2.0 Conference Excellence In Education Award"
-                    className="w-full h-auto rounded-md block"
-                    loading="lazy"
-                    decoding="async"
-                  />
-                </div>
+      <LazySection minHeight="500px">
+        <section className="py-16 bg-white">
+          <div className="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="text-center mb-12">
+              <div className="inline-block px-4 py-2 bg-emerald-600/20 backdrop-blur-sm rounded-full border border-emerald-400/30 mb-4">
+                <span className="text-emerald-700 text-sm font-bold">AWARD & RECOGNITION</span>
               </div>
             </div>
 
-            <div className="w-16 h-1 bg-gradient-to-r from-amber-300 to-amber-500 rounded-full mb-6"></div>
+            <div className="flex flex-col items-center justify-center">
+              <div className="mb-6 flex justify-center">
+                <div
+                  className="p-2 rounded-xl bg-gradient-to-br from-amber-300 via-yellow-500 to-amber-600 ring-1 ring-amber-200/70"
+                  style={{
+                    maxWidth: '400px',
+                    width: '100%',
+                    boxShadow: '0 0 30px rgba(212, 175, 55, 0.45), 0 10px 25px -5px rgba(180, 130, 20, 0.35)',
+                  }}
+                >
+                  <div className="rounded-lg p-[2px] bg-amber-50/80">
+                    <img
+                      src="/education_image_.jpeg"
+                      alt="Education 2.0 Conference Excellence In Education Award"
+                      className="w-full h-auto rounded-md block"
+                      loading="lazy"
+                      decoding="async"
+                    />
+                  </div>
+                </div>
+              </div>
 
-            <p className="text-center italic text-gray-600 text-sm leading-relaxed max-w-lg">
-              Recognized at the Education 2.0 Conference (2026) for entrepreneurial leadership and innovation in education, reflecting a founder journey that began in 2017.
-            </p>
+              <div className="w-16 h-1 bg-gradient-to-r from-amber-300 to-amber-500 rounded-full mb-6"></div>
+
+              <p className="text-center italic text-gray-600 text-sm leading-relaxed max-w-lg">
+                Recognized at the Education 2.0 Conference (2026) for entrepreneurial leadership and innovation in education, reflecting a founder journey that began in 2017.
+              </p>
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
+      </LazySection>
 
       <a
         href="https://wa.me/17819854558"
