@@ -8,15 +8,40 @@ import RegistrationModal from '../components/RegistrationModal';
 import { BackgroundPaths } from '../components/ui/background-paths';
 import TypewriterEffect from '../components/ui/typewriter-effect';
 import VaporizeTextCycle, { Tag } from '../components/ui/vapour-text-effect';
-import { updatePageTitle, updateMetaDescription } from '../utils/seo';
+import { setSEO } from '../utils/seo';
 
 export default function Home() {
   const { t } = useTranslation();
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   useEffect(() => {
-    updatePageTitle('Home');
-    updateMetaDescription();
+    setSEO({
+      fullTitle: 'Fluent Future Academy | Professional Language & Interpreter Training',
+      description: 'Empowering professionals through language, communication, and career integration. Expert ESL, interpreter training, and global communication programs in Massachusetts.',
+      canonicalPath: '/',
+      jsonLd: {
+        '@context': 'https://schema.org',
+        '@type': 'EducationalOrganization',
+        name: 'Fluent Future Academy LLC',
+        url: window.location.origin,
+        logo: `${window.location.origin}/fluent_future_academy_logo.jpeg`,
+        email: 'hben@fluentfutureacademy.org',
+        telephone: '+1-781-985-4558',
+        address: {
+          '@type': 'PostalAddress',
+          addressRegion: 'Massachusetts',
+          addressCountry: 'US',
+        },
+        contactPoint: [{
+          '@type': 'ContactPoint',
+          telephone: '+1-781-985-4558',
+          email: 'hben@fluentfutureacademy.org',
+          contactType: 'customer service',
+          areaServed: 'US',
+          availableLanguage: ['English', 'Spanish', 'French', 'Arabic', 'Mandarin', 'Portuguese'],
+        }],
+      },
+    });
   }, []);
   const programs = [
     {
