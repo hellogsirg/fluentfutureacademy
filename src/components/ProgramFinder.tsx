@@ -3,15 +3,18 @@ import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { ChevronRight, MessageCircle } from 'lucide-react';
 import { programs, categories } from '../data/programs';
-import { updatePageTitle, updateMetaDescription } from '../utils/seo';
+import { setSEO } from '../utils/seo';
 
 export default function ProgramFinder() {
   const { t } = useTranslation();
   const [activeCategory, setActiveCategory] = useState('all');
 
   useEffect(() => {
-    updatePageTitle(t('nav.programs'));
-    updateMetaDescription();
+    setSEO({
+      title: 'Programs',
+      description: 'Explore 12 professional language programs including ESL, Medical Interpreter Training, and Global Communication. Hybrid format. Massachusetts-based.',
+      canonicalPath: '/programs',
+    });
   }, [t]);
 
   const filteredPrograms = activeCategory === 'all'

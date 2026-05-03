@@ -3,7 +3,7 @@ import { useParams, Link } from 'react-router-dom';
 import { ChevronRight, Clock, Monitor, Award, ChevronDown, ChevronUp, MessageCircle, Users } from 'lucide-react';
 import { programs } from '../data/programs';
 import RegistrationModal from './RegistrationModal';
-import { updatePageTitle, updateMetaDescription } from '../utils/seo';
+import { setSEO } from '../utils/seo';
 
 export default function ProgramDetail() {
   const { id } = useParams<{ id: string }>();
@@ -16,8 +16,13 @@ export default function ProgramDetail() {
   useEffect(() => {
     window.scrollTo(0, 0);
     if (program) {
-      updatePageTitle(program.title);
-      updateMetaDescription(program.shortDescription);
+      setSEO({
+        title: program.title,
+        description: program.shortDescription,
+        canonicalPath: `/programs/${program.id}`,
+      });
+    } else {
+      setSEO({ title: 'Program Not Found', noindex: true });
     }
   }, [id, program]);
 
