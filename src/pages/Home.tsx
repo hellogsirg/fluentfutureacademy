@@ -8,6 +8,7 @@ import { BackgroundPaths } from '../components/ui/background-paths';
 import TypewriterEffect from '../components/ui/typewriter-effect';
 import VaporizeTextCycle, { Tag } from '../components/ui/vapour-text-effect';
 import { setSEO } from '../utils/seo';
+import heroBg from '../assets/hero-bg.jpg';
 const CertificationShowcase = lazy(() => import('../components/CertificationShowcase'));
 const FounderProfile = lazy(() => import('../components/FounderProfile'));
 
