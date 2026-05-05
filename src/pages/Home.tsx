@@ -78,8 +78,15 @@ export default function Home() {
 
   return (
     <main className="pt-20">
-      <section className="relative bg-gradient-to-br from-blue-900 via-blue-800 to-emerald-900 text-white overflow-hidden">
-        <BackgroundPaths />
+      <section className="relative text-white overflow-hidden">
+        <img
+          src={heroBg}
+          alt="Global business and language opportunities"
+          className="absolute inset-0 w-full h-full object-cover object-center"
+          fetchPriority="high"
+          decoding="async"
+        />
+        <div className="absolute inset-0 bg-black/20" aria-hidden="true"></div>
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 lg:py-32 relative">
           <div className="max-w-4xl">
