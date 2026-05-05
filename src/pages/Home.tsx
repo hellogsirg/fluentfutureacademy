@@ -8,6 +8,7 @@ import { BackgroundPaths } from '../components/ui/background-paths';
 import TypewriterEffect from '../components/ui/typewriter-effect';
 import VaporizeTextCycle, { Tag } from '../components/ui/vapour-text-effect';
 import { setSEO } from '../utils/seo';
+import heroBg from '../assets/hero-bg.jpg';
 const CertificationShowcase = lazy(() => import('../components/CertificationShowcase'));
 const FounderProfile = lazy(() => import('../components/FounderProfile'));
 
@@ -77,8 +78,15 @@ export default function Home() {
 
   return (
     <main className="pt-20">
-      <section className="relative bg-gradient-to-br from-blue-900 via-blue-800 to-emerald-900 text-white overflow-hidden">
-        <BackgroundPaths />
+      <section className="relative text-white overflow-hidden">
+        <img
+          src={heroBg}
+          alt="Global business and language opportunities"
+          className="absolute inset-0 w-full h-full object-cover object-center"
+          fetchPriority="high"
+          decoding="async"
+        />
+        <div className="absolute inset-0 bg-black/20" aria-hidden="true"></div>
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 lg:py-32 relative">
           <div className="max-w-4xl">
@@ -86,7 +94,7 @@ export default function Home() {
               <span className="text-emerald-300 text-sm font-semibold">{t('hero.badge')}</span>
             </div>
 
-            <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight mb-6 min-h-[110px] sm:min-h-[140px] lg:min-h-[170px]">
+            <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight mb-6 min-h-[110px] sm:min-h-[140px] lg:min-h-[170px]" style={{ textShadow: '0 2px 12px rgba(0,0,0,0.6), 0 1px 3px rgba(0,0,0,0.5)' }}>
               <TypewriterEffect
                 text={t('hero.title')}
                 speed={30}
@@ -94,7 +102,7 @@ export default function Home() {
               />
             </h2>
 
-            <div className="mb-10 h-[40px] sm:h-[50px] lg:h-[60px]">
+            <div className="mb-10 h-[40px] sm:h-[50px] lg:h-[60px]" style={{ textShadow: '0 2px 10px rgba(0,0,0,0.6), 0 1px 3px rgba(0,0,0,0.5)' }}>
               <VaporizeTextCycle
                 texts={[t('hero.subtitle')]}
                 font={{
@@ -102,7 +110,7 @@ export default function Home() {
                   fontSize: "20px",
                   fontWeight: 400
                 }}
-                color="rgb(191, 219, 254)"
+                color="rgb(255, 255, 255)"
                 spread={5}
                 density={5}
                 animation={{
