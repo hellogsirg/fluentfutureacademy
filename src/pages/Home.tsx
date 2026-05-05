@@ -94,7 +94,7 @@ export default function Home() {
               <span className="text-emerald-300 text-sm font-semibold">{t('hero.badge')}</span>
             </div>
 
-            <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight mb-6 min-h-[110px] sm:min-h-[140px] lg:min-h-[170px]">
+            <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight mb-6 min-h-[110px] sm:min-h-[140px] lg:min-h-[170px]" style={{ textShadow: '0 2px 12px rgba(0,0,0,0.6), 0 1px 3px rgba(0,0,0,0.5)' }}>
               <TypewriterEffect
                 text={t('hero.title')}
                 speed={30}
@@ -102,7 +102,7 @@ export default function Home() {
               />
             </h2>
 
-            <div className="mb-10 h-[40px] sm:h-[50px] lg:h-[60px]">
+            <div className="mb-10 h-[40px] sm:h-[50px] lg:h-[60px]" style={{ textShadow: '0 2px 10px rgba(0,0,0,0.6), 0 1px 3px rgba(0,0,0,0.5)' }}>
               <VaporizeTextCycle
                 texts={[t('hero.subtitle')]}
                 font={{
@@ -110,7 +110,7 @@ export default function Home() {
                   fontSize: "20px",
                   fontWeight: 400
                 }}
-                color="rgb(191, 219, 254)"
+                color="rgb(255, 255, 255)"
                 spread={5}
                 density={5}
                 animation={{
