@@ -140,12 +140,12 @@ export default function About() {
               Hear directly from Hanane Benalia about the mission and vision behind Fluent Future Academy
             </p>
           </div>
-          <div className="mx-auto" style={{ maxWidth: '800px' }} ref={videoRef}>
-            <div className="relative rounded-2xl overflow-hidden shadow-2xl border-4 border-emerald-600/20 ring-1 ring-blue-900/10 bg-black">
-              <div className="relative w-full" style={{ paddingBottom: '56.25%' }}>
-                {videoInView && (
+          <div className="mx-auto" style={{ maxWidth: '420px' }} ref={videoRef}>
+            <div className="relative rounded-2xl overflow-hidden shadow-2xl border-4 border-emerald-600/20 ring-1 ring-blue-900/10 bg-gradient-to-br from-blue-900 via-blue-800 to-emerald-900">
+              <div className="relative w-full" style={{ paddingBottom: '177.78%' }}>
+                {videoInView && videoPlaying && (
                   <iframe
-                    src={`https://drive.google.com/file/d/1rYfIbeK_11CHztWQ7109fdb3mtyAOANB/preview${videoPlaying ? '?autoplay=1' : ''}`}
+                    src={`https://drive.google.com/file/d/1rYfIbeK_11CHztWQ7109fdb3mtyAOANB/preview?autoplay=1`}
                     className="absolute inset-0 w-full h-full"
                     allow="autoplay; encrypted-media"
                     allowFullScreen
@@ -158,19 +158,38 @@ export default function About() {
                     type="button"
                     onClick={() => setVideoPlaying(true)}
                     aria-label="Play Founder's Message"
-                    className="absolute inset-0 w-full h-full flex flex-col items-center justify-center bg-black/50 hover:bg-black/40 transition-colors group cursor-pointer z-10"
+                    className="absolute inset-0 w-full h-full flex flex-col items-center justify-center cursor-pointer group z-10"
                   >
-                    <span className="relative flex items-center justify-center">
-                      <span className="absolute inline-flex h-full w-full rounded-full bg-emerald-500 opacity-60 animate-ping"></span>
-                      <span className="relative inline-flex items-center justify-center w-20 h-20 sm:w-24 sm:h-24 rounded-full bg-emerald-600 group-hover:bg-emerald-500 shadow-2xl ring-4 ring-white/20 transition-transform group-hover:scale-110">
-                        <svg viewBox="0 0 24 24" className="w-8 h-8 sm:w-10 sm:h-10 text-white ml-1" fill="currentColor">
-                          <path d="M8 5v14l11-7z" />
-                        </svg>
+                    <div className="absolute inset-0 bg-gradient-to-br from-blue-900 via-blue-800 to-emerald-900" />
+                    <div className="absolute inset-0 flex items-center justify-center opacity-30">
+                      <img
+                        src="/fluent_future_academy_logo.jpeg"
+                        alt=""
+                        aria-hidden="true"
+                        className="w-2/3 max-w-[260px] object-contain"
+                        loading="lazy"
+                      />
+                    </div>
+                    <div className="absolute inset-0 bg-black/40 group-hover:bg-black/30 transition-colors" />
+                    <div className="relative z-10 flex flex-col items-center justify-center">
+                      <img
+                        src="/fluent_future_academy_logo.jpeg"
+                        alt="Fluent Future Academy"
+                        className="w-32 sm:w-40 mb-8 rounded-lg shadow-xl"
+                        loading="lazy"
+                      />
+                      <span className="relative flex items-center justify-center">
+                        <span className="absolute inline-flex h-full w-full rounded-full bg-emerald-500 opacity-60 animate-ping"></span>
+                        <span className="relative inline-flex items-center justify-center w-20 h-20 sm:w-24 sm:h-24 rounded-full bg-emerald-600 group-hover:bg-emerald-500 shadow-2xl ring-4 ring-white/20 transition-transform group-hover:scale-110">
+                          <svg viewBox="0 0 24 24" className="w-8 h-8 sm:w-10 sm:h-10 text-white ml-1" fill="currentColor">
+                            <path d="M8 5v14l11-7z" />
+                          </svg>
+                        </span>
                       </span>
-                    </span>
-                    <span className="mt-5 text-white text-sm sm:text-base font-semibold tracking-wide drop-shadow-lg">
-                      Watch Founder's Message
-                    </span>
+                      <span className="mt-5 text-white text-sm sm:text-base font-semibold tracking-wide drop-shadow-lg">
+                        Watch Founder's Message
+                      </span>
+                    </div>
                   </button>
                 )}
               </div>
