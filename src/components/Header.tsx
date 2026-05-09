@@ -3,6 +3,7 @@ import { Link, useLocation } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { Menu, X, ChevronDown } from 'lucide-react';
 import LanguageSwitcher from './LanguageSwitcher';
+import { useEnrollmentSession } from '../contexts/EnrollmentSessionContext';
 
 
 
@@ -12,6 +13,7 @@ export default function Header() {
   const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
   const [isScrolled, setIsScrolled] = useState(false);
   const location = useLocation();
+  const { isActive: sessionActive } = useEnrollmentSession();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -27,7 +29,10 @@ export default function Header() {
   }, [location]);
 
   return (
-    <header className={`fixed w-full top-0 z-50 transition-all duration-300 shadow-sm ${isScrolled ? 'bg-white shadow-md py-3' : 'bg-white/95 backdrop-blur-sm py-4'}`}>
+    <header
+      style={{ top: sessionActive ? 52 : 0 }}
+      className={`fixed w-full z-50 transition-all duration-300 shadow-sm ${isScrolled ? 'bg-white shadow-md py-3' : 'bg-white/95 backdrop-blur-sm py-4'}`}
+    >
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         <div className="flex items-center justify-between">
           <Link to="/" className="flex items-center flex-shrink-0">

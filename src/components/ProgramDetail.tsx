@@ -3,15 +3,46 @@ import { useParams, Link } from 'react-router-dom';
 import { ChevronRight, Clock, Monitor, Award, ChevronDown, ChevronUp, MessageCircle, Users } from 'lucide-react';
 import { programs } from '../data/programs';
 import RegistrationModal from './RegistrationModal';
+import ConsentModal from './ConsentModal';
 import { setSEO } from '../utils/seo';
+import { useEnrollmentSession } from '../contexts/EnrollmentSessionContext';
+
+const SPANISH_PROGRAM_ID = 'spanish-travel-business';
+const SPANISH_CHECKOUT_URL = 'https://checkout.teachable.com/secure/2706005/checkout/order_kmqn0952';
 
 export default function ProgramDetail() {
   const { id } = useParams<{ id: string }>();
   const [expandedModules, setExpandedModules] = useState<number[]>([]);
   const [isSticky, setIsSticky] = useState(false);
   const [isModalOpen, setIsModalOpen] = useState(false);
+  const [isConsentOpen, setIsConsentOpen] = useState(false);
 
+  const session = useEnrollmentSession();
   const program = programs.find(p => p.id === id);
+  const isSpanishProgram = id === SPANISH_PROGRAM_ID;
+
+  // Reopen the consent modal when the user returns to the Spanish program with an active session
+  useEffect(() => {
+    if (
+      isSpanishProgram &&
+      session.isActive &&
+      session.programId === SPANISH_PROGRAM_ID &&
+      session.modalShouldOpen
+    ) {
+      setIsConsentOpen(true);
+    }
+  }, [isSpanishProgram, session.isActive, session.programId, session.modalShouldOpen]);
+
+  const openEnrollFlow = () => {
+    if (isSpanishProgram) setIsConsentOpen(true);
+    else setIsModalOpen(true);
+  };
+
+  const closeConsent = () => {
+    setIsConsentOpen(false);
+    // Mark that the modal is no longer the target view (timer continues if active)
+    session.setModalShouldOpen(false);
+  };
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -243,14 +274,14 @@ export default function ProgramDetail() {
               </div>
 
               <button
-                onClick={() => setIsModalOpen(true)}
+                onClick={openEnrollFlow}
                 className="w-full px-6 py-4 bg-emerald-600 text-white rounded-lg hover:bg-emerald-700 transition-all duration-200 font-bold text-lg shadow-lg shadow-emerald-600/30 hover:shadow-xl hover:shadow-emerald-600/40 hover:-translate-y-0.5 mb-4"
               >
                 Register Now
               </button>
 
               <button
-                onClick={() => setIsModalOpen(true)}
+                onClick={openEnrollFlow}
                 className="w-full px-6 py-3 border-2 border-gray-300 text-gray-700 rounded-lg hover:bg-gray-50 transition-colors font-semibold"
               >
                 Request Information
@@ -292,6 +323,17 @@ export default function ProgramDetail() {
         onClose={() => setIsModalOpen(false)}
         programTitle={program?.title}
       />
+
+      {isSpanishProgram && program && (
+        <ConsentModal
+          isOpen={isConsentOpen}
+          onClose={closeConsent}
+          programTitle={program.title}
+          programId={SPANISH_PROGRAM_ID}
+          programPath={`/programs/${SPANISH_PROGRAM_ID}`}
+          checkoutUrl={SPANISH_CHECKOUT_URL}
+        />
+      )}
     </div>
   );
 }
