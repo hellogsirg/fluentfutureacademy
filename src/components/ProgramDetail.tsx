@@ -323,6 +323,17 @@ export default function ProgramDetail() {
         onClose={() => setIsModalOpen(false)}
         programTitle={program?.title}
       />
+
+      {isSpanishProgram && program && (
+        <ConsentModal
+          isOpen={isConsentOpen}
+          onClose={closeConsent}
+          programTitle={program.title}
+          programId={SPANISH_PROGRAM_ID}
+          programPath={`/programs/${SPANISH_PROGRAM_ID}`}
+          checkoutUrl={SPANISH_CHECKOUT_URL}
+        />
+      )}
     </div>
   );
 }
