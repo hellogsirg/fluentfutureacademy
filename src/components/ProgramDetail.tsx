@@ -274,14 +274,14 @@ export default function ProgramDetail() {
               </div>
 
               <button
-                onClick={() => setIsModalOpen(true)}
+                onClick={openEnrollFlow}
                 className="w-full px-6 py-4 bg-emerald-600 text-white rounded-lg hover:bg-emerald-700 transition-all duration-200 font-bold text-lg shadow-lg shadow-emerald-600/30 hover:shadow-xl hover:shadow-emerald-600/40 hover:-translate-y-0.5 mb-4"
               >
                 Register Now
               </button>
 
               <button
-                onClick={() => setIsModalOpen(true)}
+                onClick={openEnrollFlow}
                 className="w-full px-6 py-3 border-2 border-gray-300 text-gray-700 rounded-lg hover:bg-gray-50 transition-colors font-semibold"
               >
                 Request Information
