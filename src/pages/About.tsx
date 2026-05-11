@@ -188,6 +188,34 @@ export default function About() {
         </div>
       </section>
 
+      {videoPlaying && (
+        <div
+          className="fixed inset-0 z-[100] flex items-center justify-center bg-black/80 backdrop-blur-sm p-4"
+          onClick={() => setVideoPlaying(false)}
+        >
+          <div
+            className="relative w-full max-w-4xl aspect-video bg-black rounded-xl overflow-hidden shadow-2xl"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <button
+              type="button"
+              onClick={() => setVideoPlaying(false)}
+              aria-label="Close video"
+              className="absolute -top-2 -right-2 sm:top-3 sm:right-3 z-10 w-10 h-10 rounded-full bg-white text-gray-900 hover:bg-gray-200 flex items-center justify-center shadow-lg text-2xl font-bold"
+            >
+              ×
+            </button>
+            <iframe
+              src="https://www.youtube.com/embed/a3lj-YZvJlw?autoplay=1"
+              className="w-full h-full"
+              allow="autoplay; encrypted-media; picture-in-picture"
+              allowFullScreen
+              title="A Message From Our Founder - Hanane Benalia"
+            />
+          </div>
+        </div>
+      )}
+
       <section className="py-28 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-center mb-8">
