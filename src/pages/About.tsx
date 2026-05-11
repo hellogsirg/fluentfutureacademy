@@ -143,16 +143,6 @@ export default function About() {
           <div className="mx-auto" style={{ maxWidth: '420px' }} ref={videoRef}>
             <div className="relative rounded-2xl overflow-hidden shadow-2xl border-4 border-emerald-600/20 ring-1 ring-blue-900/10 bg-gradient-to-br from-blue-900 via-blue-800 to-emerald-900">
               <div className="relative w-full" style={{ paddingBottom: '177.78%' }}>
-                {videoInView && videoPlaying && (
-                  <iframe
-                    src={`https://drive.google.com/file/d/1rYfIbeK_11CHztWQ7109fdb3mtyAOANB/preview?autoplay=1`}
-                    className="absolute inset-0 w-full h-full"
-                    allow="autoplay; encrypted-media"
-                    allowFullScreen
-                    loading="lazy"
-                    title="A Message From Our Founder - Hanane Benalia"
-                  />
-                )}
                 {!videoPlaying && (
                   <button
                     type="button"
