@@ -206,9 +206,9 @@ export default function About() {
               ×
             </button>
             <iframe
-              src="https://www.youtube.com/embed/a3lj-YZvJlw?autoplay=1"
+              src="https://drive.google.com/file/d/1rYfIbeK_11CHztWQ7109fdb3mtyAOANB/preview"
               className="w-full h-full"
-              allow="autoplay; encrypted-media; picture-in-picture"
+              allow="autoplay; encrypted-media"
               allowFullScreen
               title="A Message From Our Founder - Hanane Benalia"
             />
