@@ -143,16 +143,6 @@ export default function About() {
           <div className="mx-auto" style={{ maxWidth: '420px' }} ref={videoRef}>
             <div className="relative rounded-2xl overflow-hidden shadow-2xl border-4 border-emerald-600/20 ring-1 ring-blue-900/10 bg-gradient-to-br from-blue-900 via-blue-800 to-emerald-900">
               <div className="relative w-full" style={{ paddingBottom: '177.78%' }}>
-                {videoInView && videoPlaying && (
-                  <iframe
-                    src={`https://drive.google.com/file/d/1rYfIbeK_11CHztWQ7109fdb3mtyAOANB/preview?autoplay=1`}
-                    className="absolute inset-0 w-full h-full"
-                    allow="autoplay; encrypted-media"
-                    allowFullScreen
-                    loading="lazy"
-                    title="A Message From Our Founder - Hanane Benalia"
-                  />
-                )}
                 {!videoPlaying && (
                   <button
                     type="button"
@@ -197,6 +187,34 @@ export default function About() {
           </div>
         </div>
       </section>
+
+      {videoPlaying && (
+        <div
+          className="fixed inset-0 z-[100] flex items-center justify-center bg-black/80 backdrop-blur-sm p-4"
+          onClick={() => setVideoPlaying(false)}
+        >
+          <div
+            className="relative w-full max-w-4xl aspect-video bg-black rounded-xl overflow-hidden shadow-2xl"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <button
+              type="button"
+              onClick={() => setVideoPlaying(false)}
+              aria-label="Close video"
+              className="absolute -top-2 -right-2 sm:top-3 sm:right-3 z-10 w-10 h-10 rounded-full bg-white text-gray-900 hover:bg-gray-200 flex items-center justify-center shadow-lg text-2xl font-bold"
+            >
+              ×
+            </button>
+            <iframe
+              src="https://www.youtube.com/embed/a3lj-YZvJlw?autoplay=1"
+              className="w-full h-full"
+              allow="autoplay; encrypted-media; picture-in-picture"
+              allowFullScreen
+              title="A Message From Our Founder - Hanane Benalia"
+            />
+          </div>
+        </div>
+      )}
 
       <section className="py-28 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
